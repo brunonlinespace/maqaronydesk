@@ -8,7 +8,7 @@
   </a>
 </p>
 
-# MaqaronyDesk
+# Marko Plus
 
 **Friendly. Fast. Focused.**
 
