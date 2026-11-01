@@ -14,7 +14,7 @@
 
 MaqaronyDesk is a workspace-scale Markdown editor built around MaqaronyPad's established Markdown source editor and preview engine. It adds managed workspaces, folder navigation, dashboards, persistent application settings, and the shared Desk-family document lifecycle while continuing to read and write ordinary Markdown files.
 
-Current release: **1.0.0-x21.4**
+Current release: **1.0.0**
 
 Repository: <https://github.com/brunonlinespace/maqaronydesk>
 
