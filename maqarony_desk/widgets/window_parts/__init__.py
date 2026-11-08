@@ -1,0 +1,1 @@
+"""MaqaronyDesk MainWindow responsibility mixins."""

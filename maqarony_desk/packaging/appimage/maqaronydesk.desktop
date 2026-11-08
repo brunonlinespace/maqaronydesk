@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MaqaronyDesk
+GenericName=Markdown Workspace Editor
+Comment=Workspace-scale Markdown editing with source and preview views
+Exec=maqaronydesk %f
+Icon=maqaronydesk
+Terminal=false
+Categories=Office;TextEditor;Utility;
+Keywords=Markdown;Editor;Notes;Workspace;
+MimeType=text/markdown;
+StartupNotify=true
+StartupWMClass=MaqaronyDesk
+X-AppImage-Version=1.0.0

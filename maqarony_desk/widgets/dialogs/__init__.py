@@ -1,0 +1,1 @@
+"""MaqaronyDesk application dialogs."""
