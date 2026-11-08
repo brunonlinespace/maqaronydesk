@@ -1,0 +1,2292 @@
+{
+  "baseline": "MaqaronyDesk 1.0.0-x17.2",
+  "unchanged_methods": {
+    "app.py::main": [
+      "53b017042500aaa3bc3d965fe4e71c9de86630652bb901aa0d2f167e46064e23"
+    ],
+    "app.py::requested_open_path": [
+      "7303e8d6be9775c3f0dbb755c5f6f0f681459e258f2bcaebad997dcc09c45b6a"
+    ],
+    "controllers/editor_manager.py::__init__": [
+      "02c7040022b829fb2ba2f9f1d07e55663a8b6129f79405f37aae6ef137121951"
+    ],
+    "controllers/editor_manager.py::_connect_dashboard": [
+      "b674023dce5e7ba2b003b6fbeb1ac5af23befc27fe8381d5ab7d000cb21b9dca"
+    ],
+    "controllers/editor_manager.py::_create_editor_page": [
+      "2d12338f048b277db50ff0ab87cdaecec7b1a71fbb88c86b9e11ba12214ea50d"
+    ],
+    "controllers/editor_manager.py::_dispose_editor_page": [
+      "2dc12d98992a1e64c8d0c5d4eb195b0ad6eacc2f211400c65aad4b8d86fdb9e9"
+    ],
+    "controllers/editor_manager.py::_live_pages": [
+      "b53822dcc17cf1c71a6a1240d7ccc503321a586eca03ef6bd7f46205e2409911"
+    ],
+    "controllers/editor_manager.py::_on_managed_path_changed": [
+      "c0fec4e1a62ea2bd2a14ea781de8a9f4574cef0d729901fca80d367d3c3ee941"
+    ],
+    "controllers/editor_manager.py::_on_open_backing_path_changed": [
+      "3e2f74e7bc234ce7f24fcd87f54b7e320c8b3c9dcec820506c4d3f89be06ed63"
+    ],
+    "controllers/editor_manager.py::_on_repository_reset": [
+      "1bdf2fa4a0fde245326272163a0293e206eabdcf9328573c08dc8da834811693"
+    ],
+    "controllers/editor_manager.py::_on_state_removed": [
+      "5203cee1aab1e156696c5d5950fbff228f5f7524d36e48e3cc98008c61db2814"
+    ],
+    "controllers/editor_manager.py::_rebind_page_path": [
+      "49b64218f22917dcd16aeb77d72f2d763aa622204f960f7b5398bc1160999e47"
+    ],
+    "controllers/editor_manager.py::_resolution_item": [
+      "d9e6a6aa1853072ece326f286d75b4c04b8a3da6ca81394199bde48e1a283c13"
+    ],
+    "controllers/editor_manager.py::_resolve_module": [
+      "b1a689b351c172ff7e826c9131ba25146a487a75765a29f9e55f6fab936f44bc"
+    ],
+    "controllers/editor_manager.py::_resolve_pages_before_close": [
+      "a751c010975343c11fd2753c6b859f154dae6f0d4b0106e2c4aa8d3b54915a82"
+    ],
+    "controllers/editor_manager.py::_show_dashboard_surface": [
+      "34e841affefe712b9c2bb64bb5533d2a159fd4d5104b220352484203b0b35f37"
+    ],
+    "controllers/editor_manager.py::_tabs_enabled": [
+      "f916b4b987fce6c0d93fc676cc71470439842aefb0ce131e0e55eec0e1f6ba01"
+    ],
+    "controllers/editor_manager.py::apply_editor_preferences": [
+      "4ddecbeb88ade8dd5d12897988ea4d520184aec16b6b9d878c3b47c09b84d8b2"
+    ],
+    "controllers/editor_manager.py::apply_editor_theme": [
+      "ca3c461b94c65651a94a5f65e961254c60226e5e97a9bf3fbd77163466fb5ad7"
+    ],
+    "controllers/editor_manager.py::can_close_application": [
+      "7db11ecaff5c1f6f9781b8c2f82d8bd508227362fba9f74cd06a3ac7d9c83390"
+    ],
+    "controllers/editor_manager.py::close_folder_page": [
+      "37ac97c343c4b5e2e99e4fe8d65ad0b9c5a1dbaecefb89e94112f3f1c7800401"
+    ],
+    "controllers/editor_manager.py::close_module": [
+      "76c1e2dad74fd59737b20bea8c1f93f2fc8c319f904c2389039c5a8d9d8ebec0"
+    ],
+    "controllers/editor_manager.py::close_pages_in_folder": [
+      "4d1218ea92fc18118bf3a4af2df69e0650918865fea1a507be6294d8cde683d8"
+    ],
+    "controllers/editor_manager.py::current_path": [
+      "d7816a92761cce365a1163d67957095034b34b206b2d6f49452ac15d853dd980"
+    ],
+    "controllers/editor_manager.py::open_folder": [
+      "4f8e2b1e3098c557c459916a548572b28a13384fb87eea2246347b8bd4d04524"
+    ],
+    "controllers/editor_manager.py::open_module": [
+      "f8d06242f873a0d0afb5bb6b1b5cfeed0a7dbfd53ea4ae52f7828bd7cd4891fd"
+    ],
+    "controllers/editor_manager.py::open_module_for_edit": [
+      "7443b86fe8fe03103c437def3a1f5d004fcf38adc8ee1fb349cffd6365aaeda6"
+    ],
+    "controllers/editor_manager.py::open_module_in_view": [
+      "7b67ddcade78f9450c9ca9343d00d306e6959525f277ec205aacc3c1b2536d3a"
+    ],
+    "controllers/editor_manager.py::prepare_tabs_disabled": [
+      "016cfd5acbb623521af02d24b8b9a93b8ecbc723c2d53af6a6c53da7bbb4c335"
+    ],
+    "controllers/editor_manager.py::set_lock_editor": [
+      "a46c2d2262b09dff6d415760e5a87ec51080164e5e1edd5b4fbd9493882d823d"
+    ],
+    "controllers/editor_manager.py::set_search_text": [
+      "444bea822b44b76545ffeeb793c54f13cb699f029efa1eb9c49ebcdb2b17a109"
+    ],
+    "controllers/editor_manager.py::set_sort_mode": [
+      "efc174ca0b1697e161f3075ecacd1dc7586fbb53142ea8afef9d6b01458785c6"
+    ],
+    "controllers/editor_manager.py::set_view_mode": [
+      "d18c3a6cd0319c45b26440359cb57e78a87aef248dbdc191d7a6504ce7a0e8ca"
+    ],
+    "controllers/editor_manager.py::show_current_editor_status": [
+      "5a425b4aa960bc80343d932fbffec05fbab665b10e13a64ae5468e754ce501b7"
+    ],
+    "controllers/editor_manager.py::show_dashboard": [
+      "a4fdb68e6af310ad6b765ab9b9635ecf9f825aab676b9f44862d1ea65a654a9f"
+    ],
+    "controllers/editor_manager.py::switch_workspace_root": [
+      "61218c777cb9c3a55cb3c67957e0069bd1487710a61e0b5ad7757c20ba9d9891"
+    ],
+    "controllers/file_actions.py::__init__": [
+      "c74c753a733e90e1be9645a244e96d0a562647b1abfc48e73e20ac21717cbf56"
+    ],
+    "controllers/file_actions.py::_display_name": [
+      "3c698b9f242eeeda0cd8546354b2755c5f933cfb116c56d2719d59f5ec83f152"
+    ],
+    "controllers/file_actions.py::_editor_page_for": [
+      "9cf0f785a3d612ec9dcacd6e18cc36b2e1e4cd3dab43a7d694ce1568329edca7"
+    ],
+    "controllers/file_actions.py::_error": [
+      "81fbbfa3c8d2e5664e98777da056724ea4aa553ce64e9544e92ff9b019222b56"
+    ],
+    "controllers/file_actions.py::_file_policy": [
+      "ccc927ae0f7d40a7f5f78595c5806f5cb7ff4100f4a03e90e77b2e9861649828"
+    ],
+    "controllers/file_actions.py::_normalise_document_name": [
+      "bd6bd79023cd28639304b2d4601a0d6fa872e027320e1ac58297cf586cd2b803"
+    ],
+    "controllers/file_actions.py::_prepare_open_editor": [
+      "31f20033f8f1cc5a1c6f95eec0c5a721323bc495be1c53a5482f7637b09f3e5a"
+    ],
+    "controllers/file_actions.py::_relative_folder": [
+      "633e3183b61707c2e479e0f99bfa0444d0e53dbc8d2386b106155cfd311be002"
+    ],
+    "controllers/file_actions.py::_request_rescan": [
+      "9ddb7739f0c4b687e9f6bce25b20155770d09b7ff29230165f6f44fefc281d51"
+    ],
+    "controllers/file_actions.py::_resolve_import_conflict": [
+      "2691ad168008c9e9b5401520ed8f56b5c79aea9bc22749f029590b0c76e034ce"
+    ],
+    "controllers/file_actions.py::_set_file_policy": [
+      "e4f9afb9151d14e33e1a87d68c01b90478be004bfdd7d1f63d314ad3b957ece6"
+    ],
+    "controllers/file_actions.py::_unique_destination": [
+      "22c1dda8d09d3a1b1777816e51bf222af4128fd3aa2bdb7970c6d121a5ff48fa"
+    ],
+    "controllers/file_actions.py::_validated_folder": [
+      "2e2670aea089c3c7546528b7eb1d6de607a4b7fd1a07598f7ab5487dbee9c57c"
+    ],
+    "controllers/file_actions.py::_warn": [
+      "c2e69f8894730870720d5467408f3598731162ee3f9d4414b97d72e1846ef187"
+    ],
+    "controllers/file_actions.py::create_file": [
+      "c4591e4e258cd0513f57fd2425860b0235a54b5f3355f90738c4bc2e8337f02e"
+    ],
+    "controllers/file_actions.py::create_folder": [
+      "ef87285ffae759db59f5c9017f4ff3b15cfc05ce17cf21eaf033b5cdf2561d31"
+    ],
+    "controllers/file_actions.py::duplicate_module": [
+      "6bfbaccee2859e5c3b6ca021cb253af50e710f0a306f9857f42d74d36ae5a787"
+    ],
+    "controllers/file_actions.py::import_files": [
+      "0199cf3f88578bf775fbf7d34fd7eb8c7d9d47be3feecbfd9b2f8f4ac2de230e"
+    ],
+    "controllers/file_actions.py::move_module": [
+      "2f00bf96731ea68edc446d7515754622e932a985d47a4445e1db4961ed79245c"
+    ],
+    "controllers/file_actions.py::open_external_editor": [
+      "fffe9d326e61dd8f34d5f91c1b08de250de2790d1cb7bb42ee443d5ad1f10435"
+    ],
+    "controllers/file_actions.py::open_folder_external": [
+      "18dd15cf77cfaea7bf933b09bd11596bc643b9df5b6daa6daf377ec7112f0d91"
+    ],
+    "controllers/file_actions.py::open_module_folder": [
+      "1b4299af2cf09b25a3b6a6be81bdbcf4a32e3803b558ffe5c239bdee5a14fba7"
+    ],
+    "controllers/file_actions.py::remove_folder": [
+      "530c351a8426ea8e25735db9fa61adc43fda5be60513319289d69e0a3f6ca36a"
+    ],
+    "controllers/file_actions.py::remove_module": [
+      "0f486ed55fd257ccc9f417b534d9d13ab345b5aed7490631d7ef9ed2c4531959"
+    ],
+    "controllers/file_actions.py::rename_folder": [
+      "0713c5257fd539bcb4bd8c94fda28741807bc57516ef169037841c214f2b2e4e"
+    ],
+    "controllers/file_actions.py::rename_module": [
+      "356796ef47d507693ce33560fbbb8f12fe37c4ea8d8b0b8fb2fb195d0131d754"
+    ],
+    "controllers/file_actions.py::switch_workspace_root": [
+      "9e7e8f68ed99dfae1505692fa697dc418179b7c0c2f7e1404e7ba966a0703cf0"
+    ],
+    "legacy_ricopad.py::strip_legacy_envelope": [
+      "321b1aca924168bdc890811bb47cc9b6fd0a4be5a0844c8cdd7c649ccd5b0cd5"
+    ],
+    "models/module.py::__post_init__": [
+      "d7c79e3379755e6edd97fd3379f1947b7f77e759af2eb71f2eca7e3c617ef448"
+    ],
+    "models/module.py::__repr__": [
+      "8aac9d6458e878247d98c2078084256fe7e2d23073b40301c71fb9d41ab7be08"
+    ],
+    "models/module.py::__str__": [
+      "3943e88606dd4b5eaec1335c58ce577c590ba6e404f4d0fef16da0549d1686cc"
+    ],
+    "models/module.py::exists": [
+      "648cdc7d784b55c5b3e2cd5d4037d58b9a271bf04a40812d11767bc71d2e5665"
+    ],
+    "models/module.py::extension": [
+      "e1208b033eedc1704a28cef20c09fc312ce96b8031e91745d8926f79d131b8cf"
+    ],
+    "models/module.py::refresh_search_cache": [
+      "fffaef4a102cf6ff3dcae2b1efb32e75e320e34812998b6f7a4a1d3e5549078a"
+    ],
+    "models/module.py::update_metadata": [
+      "e2cd18db9e4e77a22b740ad155756acbbce6a4449ea9d80cd339a62b37bacc79"
+    ],
+    "models/module_repository.py::__contains__": [
+      "520923347d170a65185cfa960821737b69f916bf38116b61644f457309179b5e"
+    ],
+    "models/module_repository.py::__init__": [
+      "dd9a9486e30e7c3bd44b0d521d9a60192c86ecdb5930513591e30becfc84978a"
+    ],
+    "models/module_repository.py::__iter__": [
+      "5be968981ee348ef599cde4291c93490f37c5215433078459b8affaa400670b2"
+    ],
+    "models/module_repository.py::__len__": [
+      "d5da286a46a5ac9d2f9c8de98101c8e0eef41641b214aeade664d6b1926c3d3a"
+    ],
+    "models/module_repository.py::_copy_metadata": [
+      "74c4f1136b3bd058ebf38ae2d2188668a1dabf9849d6f4989d8f02e756cccc39"
+    ],
+    "models/module_repository.py::_emit_counts": [
+      "30b2672a68228c0392d7803e2ac53f3494c01735109e4462ff92a18b3cfcab27"
+    ],
+    "models/module_repository.py::_emit_counts_now": [
+      "a6d6a076c405747baa3c848241e664602e4d00a4d51f4bb07a668b0484d5a0b3"
+    ],
+    "models/module_repository.py::add": [
+      "029e6d1f2099e001f64398169129ce8b52fd53c6db10077dc25870fd61f3f407"
+    ],
+    "models/module_repository.py::add_many": [
+      "f5e6806c4079732f6e69da801f4046f1796972aa62c2c3476740bdfae736ad51"
+    ],
+    "models/module_repository.py::all": [
+      "375e7a2f439cb3fae0ad77516ba5d009f16a8228f4a23b521b2f1006f42c6137"
+    ],
+    "models/module_repository.py::batch_update": [
+      "0931beb3fed9c37206b9dfd091c9fb947221c1494cc28c04b31a27dbf3890600"
+    ],
+    "models/module_repository.py::clear": [
+      "68998283bc7557ea806f06fbf9a63dbf24ed2e06121f15590b6c97cb85b3922b"
+    ],
+    "models/module_repository.py::contains": [
+      "bca55d0008d94a38dee35c246441f1fd3ee525e1a19e55636528d8d5785615e1"
+    ],
+    "models/module_repository.py::dirty": [
+      "d0dd6e534a8c271b16f9afcf1b02401ce1ad9a37c9b57800a0138ff990152c04"
+    ],
+    "models/module_repository.py::get": [
+      "be2963bf7c7ad8a0048d246abd5a8bf41e194621d0ed78c2eda650010a0d596a"
+    ],
+    "models/module_repository.py::move_path": [
+      "0695dae86ffd8b72abca2c6a8c436b6e1f1acb72604903f4bdbe0924a795f60d"
+    ],
+    "models/module_repository.py::normalize_path": [
+      "d8f4a2ef5f2831dc1efa6872beed6c347f77d49426a127daeaeffb847dc2b415"
+    ],
+    "models/module_repository.py::remove": [
+      "a0b13d3669eeb9b51348711326e022d3ed8b75af34e08038fb2f083f27ae89d9"
+    ],
+    "models/module_repository.py::replace_all": [
+      "97ffe54a0bc19bb16231705392b869929b34e93647199617f70c61ffd7410f97"
+    ],
+    "models/module_repository.py::search": [
+      "8a6ae79d852931bf232d9fc4c179f1d0bee60f0d872c6521d5dad40be2697f6e"
+    ],
+    "models/module_repository.py::set_dirty": [
+      "450df12b93345ef01785e64adc841eae1cfb755709203faf10536b8d2da523d9"
+    ],
+    "models/module_repository.py::sorted": [
+      "27cc38805a9cd6595d2340489abc97dda54efe287b80e8b6d05b876dd1468fa8"
+    ],
+    "models/module_state.py::clear_editor": [
+      "c5988b6710880925963061c70237cc7a9848731b0b28b1cfa4527171a79fc44a"
+    ],
+    "models/module_state.py::clear_views": [
+      "8bfdcd5f7510bf872fdee024a62fb12cece3e74a5284ae33a8d83de67a3db1e8"
+    ],
+    "models/module_state.py::has_editor": [
+      "f26c75098303f0a077085cbf898c0b08cd48aab0523fb7768eab06ab1518160a"
+    ],
+    "models/module_state_store.py::__init__": [
+      "96c0035f79cbfaca739d09ad6be9eff4a785e659ea8ec7425d7a035664c6868a"
+    ],
+    "models/module_state_store.py::__iter__": [
+      "a49fed523fff7feeaa5a926fcfd133ba745ff2aea4e64297d9634b65eef03720"
+    ],
+    "models/module_state_store.py::__len__": [
+      "568bd8f2c9137d8c8f2e48417c14d9c1b4e25a5144dadbca54b66f2843f859e0"
+    ],
+    "models/module_state_store.py::_on_module_added": [
+      "aeb1541adf0816a0b78f616d5c3537c4f78f38fe5f8b9880da78a8c72996e48d"
+    ],
+    "models/module_state_store.py::_on_module_path_changed": [
+      "0af202d5493d540f115944d6e8ee87f046ffa74f4c87bba32d220fb48d60f68b"
+    ],
+    "models/module_state_store.py::_on_module_removed": [
+      "367f71b72d4d98654e6aa33ef526a74088e08ea34e53cb5be1437ca275229104"
+    ],
+    "models/module_state_store.py::clear": [
+      "a6b0575e0cb572a2d91fb89d98a78fede8084fe995b3c3bdfa452ec72877f3c4"
+    ],
+    "models/module_state_store.py::ensure": [
+      "33a2eb68dfffd2b771d3db0f30140848cb9f1adef1febd8f836ecc11ffe72480"
+    ],
+    "models/module_state_store.py::get": [
+      "8f1264bd5b9a1a08140aef43cf19534f7c886e3367d518bfcb67e7ad8ec3eaff"
+    ],
+    "models/module_state_store.py::move_path": [
+      "633514721dfa250cc92734adf652c81045b36b342f8be9c5f3db8e29b5e463fa"
+    ],
+    "models/module_state_store.py::remove": [
+      "3f9333e001e697bed258ce927f05570180cf7ad6c475652cc6e982780b4945a7"
+    ],
+    "models/workspace_folder.py::__post_init__": [
+      "e1315f279a2a6fba83a7bd7edd77d9347fb4a6c3156760c78b1f044f4e8a4ed9"
+    ],
+    "models/workspace_folder.py::contains": [
+      "ee537f105030dd32bcc89da9d068ed50f80bfd17b07ae619dff07dc453fe717a"
+    ],
+    "models/workspace_folder.py::is_workspace_root": [
+      "2a6c2a077251f898ead5563e3c0c0663fb2c3c03212f7ef76101dfe8eff31c19"
+    ],
+    "models/workspace_folder.py::name": [
+      "35e8c66b0ad91ba071f90919b9fe33a5ffcacc1264abadc7cd31594fecaa4a6e"
+    ],
+    "models/workspace_folder.py::relative_path": [
+      "6e471114225f07b20aac14b503e0d8822e2db42fb6f59ff8bda3fc7315158be0"
+    ],
+    "services/config_service.py::__init__": [
+      "8bed948fdf8b9f5b44dca7fdebc8646115395038732011edaecb87a435d968ee"
+    ],
+    "services/config_service.py::get": [
+      "ecc711dafd5cd3e1b1842bec633637d7400fdde95197f6c611055a922ffacb4e"
+    ],
+    "services/config_service.py::get_int": [
+      "aa268649be8c8707a96f17e943d078155b9555fc56de4e5066734084eed563ee"
+    ],
+    "services/config_service.py::get_int_list": [
+      "1b5f769d9d0da70e455dfded98a5411b105693ef43a1a8c48744729d54a28708"
+    ],
+    "services/config_service.py::load": [
+      "a07a1f053410b13a518ff5778af2898b4d9db8d2d59c1ba18bc0e1e49bb3031d"
+    ],
+    "services/config_service.py::save": [
+      "5ada4991b51f550f571578702bd6fb0f426164d50e78fe84143ef0c0f0f77a97"
+    ],
+    "services/config_service.py::set": [
+      "a03c2fd88e43b963dacd8a6ec7755634a74ff5471721d5f131dc238c2620df3c"
+    ],
+    "services/config_service.py::update": [
+      "2c1950654245a18a187ffd4998bb0cfba229ba37a4eaa44b6ac256816e924de7"
+    ],
+    "services/desktop_launcher.py::__init__": [
+      "357884d8a4a693986bd3259141a288828955ff28fc1e1f57328d75ca5dbfee24"
+    ],
+    "services/desktop_launcher.py::_absolute_user_path": [
+      "115e243318dd5804584ac99cc360857b16f4edd83c085fbcec2e4e734c870a90"
+    ],
+    "services/desktop_launcher.py::_configure_process": [
+      "101a398a1d0bb408e7f8cc3f564a0eba2cc91c577e111eb3e5b396752c7100a7"
+    ],
+    "services/desktop_launcher.py::_desktop_open_command": [
+      "870046802eca7deaf12df76a5a6d3a9b20a3b8100739673bf8607cbb6eeac9be"
+    ],
+    "services/desktop_launcher.py::_fail": [
+      "1a3ebef1b014730ce70eccc661b3159b237fa8d51da821db6927fd4e11ac4511"
+    ],
+    "services/desktop_launcher.py::_first_available_command": [
+      "b7eb9178219320458ed8f608f52d925ad96c9ec345761a1e312cf76dc23eb4d6"
+    ],
+    "services/desktop_launcher.py::_host_path": [
+      "f854e2a6d8e20abdf3d6eed4674768219fb5fa85f0873d7e87e90424281d8337"
+    ],
+    "services/desktop_launcher.py::_process_environment": [
+      "2805fa6abc725b1caa281e300b6faa14228368d8d42120c29efff3bf0cdba218"
+    ],
+    "services/desktop_launcher.py::_resolve_executable": [
+      "94ebf7911f6aa38c53c608aa2ebeae9ecadc7994216ceb4a014ef24465e94630"
+    ],
+    "services/desktop_launcher.py::_start_detached": [
+      "df43fee86d77a8875854773371b933a323d2335ec43fde9c52cc2c0dc13af565"
+    ],
+    "services/desktop_launcher.py::open_in_external_editor": [
+      "c2c6957355d94fee9b189ee981a3649f56c96ca349f3ff63037801ef514da94b"
+    ],
+    "services/desktop_launcher.py::open_path": [
+      "484272d4698f16cb45a4dabfbf5361bc5531a2553ea8266ec620c8ffa9e6ea47"
+    ],
+    "services/desktop_launcher.py::open_url": [
+      "00a54e7e27d10b2be6396703c8298b62e3d36b43acec61409beb983d82250846"
+    ],
+    "services/file_io.py::_file_state": [
+      "6d3c22934a45fa4fb07079c127d38591abe442a6d0f7a7ddab40443b6c01c617"
+    ],
+    "services/file_io.py::_open_read_only": [
+      "f1c1cb49b7bbfc5f43eb0cc366cc488d132e2fc533d96e3968c5fd7d04e2bd36"
+    ],
+    "services/file_io.py::_validate_path_entry": [
+      "c93038b638543d3bac1646864cb8910c098e00487a6886ea2025b05f2e627340"
+    ],
+    "services/file_io.py::absolute_user_path": [
+      "10d155ff038f252e2abf64fb47081f254b8aa583c84bc33883fe8b94adb4fbd1"
+    ],
+    "services/file_io.py::current_file_state": [
+      "25845998472900dd6b119271fb1d67998910cf6513f1fdcc45ed21f477385277"
+    ],
+    "services/file_io.py::ensure_private_directory": [
+      "59f38fd1edc13b706e479f544578b5b2a7fec20bafe31297e2db5c11fccde35e"
+    ],
+    "services/file_io.py::fsync_directory": [
+      "c56e9851fa5131477749cd17e2c6e42ea592e915ad78ceacafc8b88befe337f7"
+    ],
+    "services/file_io.py::install_new_file_from_temp": [
+      "97578c4a5e40d78504309ec05cd232a27a2b98165c1dc628c6b52a2d6580ce39"
+    ],
+    "services/file_io.py::is_symlink": [
+      "3a8ce58c35a9ef0652fd41a9fd640a08a7a001db5a219352ad32e8f0cfd636b1"
+    ],
+    "services/file_io.py::path_identity_matches": [
+      "19db6efb46da1372077b49d64ef28e76c1efa4f42cf6000a4f6ad7fe4b17f905"
+    ],
+    "services/file_io.py::path_lexists": [
+      "8ad77d5af06f93bec5aa5e1c62a5b32a3d644f3090662038a7d61c5a37bfb2c6"
+    ],
+    "services/file_io.py::read_regular_file": [
+      "e8b2cfc8089d80f941bbbeea8fa57d1dba48130ab765159ab5d17e251343fab2"
+    ],
+    "services/file_io.py::rename_path_no_replace": [
+      "ac02f86975af52722ccdb7038f46cb106328a9f8804455a2cc36aff78e482ca2"
+    ],
+    "services/file_io.py::snapshot_from_payload": [
+      "1170b9dcaef3677f22deccd526621babea2966ad8d60ffc1f7cafc4dd97e89b1"
+    ],
+    "services/file_io.py::validated_symlink_target": [
+      "79d5c6bb930890bdb92e0de262875db8a4179f9df410e20fdc093ac57f36666a"
+    ],
+    "services/filesystem_watcher.py::__init__": [
+      "14e7d95b7d25cfd0d109aa346dc9ea96ac8d5d446a91036dc93015d9c04bada8",
+      "432be2874da76e9528a8a308f5bfc691723bda7d62eb50fa881d492af4acef09"
+    ],
+    "services/filesystem_watcher.py::_apply_snapshot": [
+      "85fa284dd72cbc7946ead698b68bdb3decbf54be805dc3e297bc2b95320438d0"
+    ],
+    "services/filesystem_watcher.py::_handle_cancelled": [
+      "b986432c2c9b07f9cc57ac3d3392f7e4da437194fda12ef0264a0038f15a67ff"
+    ],
+    "services/filesystem_watcher.py::_handle_failure": [
+      "94b2ce79fe1d7c82e0447bfe883b9cbcac53a054f21bbbe592cd2d6e30dc1b35"
+    ],
+    "services/filesystem_watcher.py::_replace_watch_paths": [
+      "f49e27812e4ff30b741defa5417bf1bc609cf0be2f800d4a2813a4c4187b769f"
+    ],
+    "services/filesystem_watcher.py::_schedule_scan": [
+      "b19714ac11c1cdf35e113586bd71cfeae02fd818e819f008dcba994644c7da7e"
+    ],
+    "services/filesystem_watcher.py::_thread_finished": [
+      "9fb5726c3f074f57e3830bdb229adc772c80fd7312592105913ed7e202e213cb"
+    ],
+    "services/filesystem_watcher.py::cancel": [
+      "9a42770a14cc9846b73567b4365dbaeb297c16dcc4bf850723a7873bd64ea2ed"
+    ],
+    "services/filesystem_watcher.py::is_cancelled": [
+      "eb1971ed1853e3318f2f21d3d3d93932a2198936ba02ad41192434dc02402bc8"
+    ],
+    "services/filesystem_watcher.py::request_rescan": [
+      "da3febc88440987d7fc170bba9da4d534c78de04ceffed4851df3003f998ac55"
+    ],
+    "services/filesystem_watcher.py::rescan": [
+      "acd2291119c26c0f9fa9b2340b3005bfdf0dfddb81e3b093476267edc800a661"
+    ],
+    "services/filesystem_watcher.py::run": [
+      "613f9daa42e7bbfe819b071532a76f757ce0e6105dddf093f6ed262dff14160a"
+    ],
+    "services/filesystem_watcher.py::start": [
+      "832274dc1b09b85d0e8b47e39858123f3a8b674d52abd8463bd5bd672c42058a"
+    ],
+    "services/filesystem_watcher.py::stop": [
+      "e18e4fd28cc8681526ad07065ecab2d83ab9bd62c3ca3303b092e6ea0be89b93"
+    ],
+    "services/module_scanner.py::__init__": [
+      "5d3f0b0567021ebf820fba2ae6f60e98958104cb503b7577aa3c40f988d33c2a"
+    ],
+    "services/module_scanner.py::_load_ignore_patterns": [
+      "6943ed2276c23aba64ddf414246be01c3956e2b34924feb409ee3c3c86f4901c"
+    ],
+    "services/module_scanner.py::_should_ignore_directory": [
+      "055e32e1b311684012b44ed7372a8d40b3fbd25e6d81d87a4c2e12e49ce3d53e"
+    ],
+    "services/module_scanner.py::scan": [
+      "7c4c92c4f0d76d4df18345334d22d7655ce65e4a13ce8103a579c9dc6f0a3483"
+    ],
+    "services/module_scanner.py::scan_snapshot": [
+      "4878330860869f1246f1d0c89e015f513c31d53402e7e66ad34c495ec5eb6817"
+    ],
+    "services/open_document_monitor.py::__init__": [
+      "700a1354c86149bef0825b1bb2b46ae2de8d0a9452339a855accb508e4cbe9ae"
+    ],
+    "services/open_document_monitor.py::_drain_pending": [
+      "8d90ef34744ba0fdafbcd7963641e13b8b213e09dc258b0ceb8251c073f643d9"
+    ],
+    "services/open_document_monitor.py::_ensure_file_watch": [
+      "35a93025371fb6c25238bd5b891396ae8ab2d55d4b562d01abc1c455b6eb1b97"
+    ],
+    "services/open_document_monitor.py::_ensure_parent_watch": [
+      "30a211a7fff5b8c96b868d2e8e5d7c5967568f209ad66d6b1e981ecaa5e31fdd"
+    ],
+    "services/open_document_monitor.py::_fingerprint": [
+      "440fd674e37ef27e9350fabd7bce9862bc295d89da6e4d5429da3257019b5127"
+    ],
+    "services/open_document_monitor.py::_normalize": [
+      "331685a7dca99e600686ce8cfb1d6f15af5e163ddfdecc58126e88c52d22aed6"
+    ],
+    "services/open_document_monitor.py::_on_directory_changed": [
+      "dbe09107678f54223c60513a0a6f742cf6a565368930a023a7da3115e5f367ba"
+    ],
+    "services/open_document_monitor.py::_on_file_changed": [
+      "1a1a9753332fc355e957ecceed67e40c52cf4d4ab955aa651beaf61ca594e687"
+    ],
+    "services/open_document_monitor.py::clear": [
+      "52e94a9860dc0e8024aaa50a16869019be3a5399e2309438d39b60f4af729623"
+    ],
+    "services/open_document_monitor.py::rebind": [
+      "4f44ad52161b119c73814799cce5c2188b00e008525433f6d69529035806a366"
+    ],
+    "services/open_document_monitor.py::refresh": [
+      "376054854a08f520e5943e5704f8b0f9e87a1667881c60dc49c1ae7f1fbea8cf"
+    ],
+    "services/open_document_monitor.py::register": [
+      "26afc8e9a456f791158e3ca663b47e9d4acb50c04271ae3edb9c6b3c535b093b"
+    ],
+    "services/open_document_monitor.py::unregister": [
+      "1853a0a760aaa100c37dd18be18204d145899dcd67ec12457c8f618d80acc2c1"
+    ],
+    "services/project_registry.py::__init__": [
+      "9c42fb7da82e1f180a0a0a3d53d0f22f993e5e31bab813048ea16aeec4519205"
+    ],
+    "services/project_registry.py::_clean_state": [
+      "88778ae3cb12d33b0a4152f507ad748343ef99a113fce10cf8486143ae8d6830"
+    ],
+    "services/project_registry.py::_default_name": [
+      "f5459766a93441b8116ecd9973391f3ea61c19c8cb51bc0180a5297d086d0f08"
+    ],
+    "services/project_registry.py::_load_and_migrate": [
+      "0654ba2f7e2c5945f5a0edfc538d6fddca17e8d3e8d245dc667bafdb17a7f923"
+    ],
+    "services/project_registry.py::_normalise_folder": [
+      "acd1565cd822f7e7171f1172030f1c36f99a8d3b6dd9be31aa2740fb1358f9c7"
+    ],
+    "services/project_registry.py::_save": [
+      "266fc24362db381a1808cf72d4ad212ac8244556d3e5cab3989bc0019e0b55d8"
+    ],
+    "services/project_registry.py::_serialise": [
+      "6d44ed365b68d06ff8746c2a553d77889cf457f650d6a4c13cf46d8ba421a8a7"
+    ],
+    "services/project_registry.py::active_project": [
+      "67b4f0179cedc4be876fde13cff64392749acf50dc761c43930059717af45883"
+    ],
+    "services/project_registry.py::active_project_id": [
+      "690916bff8ab9f70bed3ff40fdeeaeb07cdfe213b6db20ad8bb469987f2f0c1f"
+    ],
+    "services/project_registry.py::add_folder": [
+      "29fedc995794a83c1d8aaab82527247ee132887959d16c6edfa1cc0ae26dfdde"
+    ],
+    "services/project_registry.py::find_folder": [
+      "e63ade3bfea8bb143011c60c030902684343fcb0b939811693f12efef0204cc5"
+    ],
+    "services/project_registry.py::get": [
+      "c2b1eeafa7bf96c30fecd5cb75da37eb46861ee8ee3eabdb3afa7e66a6da3e02"
+    ],
+    "services/project_registry.py::projects": [
+      "2eecf17dfdda08f624d9ccbf6b10396b5ea0f8b41342e4b0aca90437899a090a"
+    ],
+    "services/project_registry.py::relink": [
+      "c9233ee573e08c1fe4ceb2d1fdb58aa9c5a023e5e7543ef1ef5204f3a7d1423d"
+    ],
+    "services/project_registry.py::remove": [
+      "8016439f47978903c7d0252b294d1c070e07f6f6ba088b31cfeafae20967634e"
+    ],
+    "services/project_registry.py::rename": [
+      "3619711717aa0a7755f3b19e427d6c70da687eb66ce20297637a67c1a320c78b"
+    ],
+    "services/project_registry.py::set_active": [
+      "02c84a52bbf6729ab1f16d61b93498defaf336214764b8de81a45b3ff4ea5a52"
+    ],
+    "services/project_registry.py::update_state": [
+      "06bec20ba21b58a74b4841eef694a0f3ae33a8535bf22283e3faf2bf3f0c1412"
+    ],
+    "services/resources.py::asset_path": [
+      "a515d181fdafa124002c3f488539d357893efe6291bce96d2b016879efc7b136"
+    ],
+    "services/resources.py::icon_path": [
+      "c440e78b0e236280baa0dd5924e4c6f2dbc6608325c77df67159739952742448"
+    ],
+    "services/resources.py::package_root": [
+      "a3d22c6498889423043f94fc1ff5e89547dcb4c47e86e5aabaf14758b6b63083"
+    ],
+    "services/runtime_paths.py::_resolve_default_workspace": [
+      "eef45ab2a24115a0d6072cbd80b1f46592682c7a43c80f6731cb5e245ff9ce17"
+    ],
+    "services/runtime_paths.py::config_path": [
+      "a017b20f0f36b3671789d0ef4666afcf4b060805df0364ffe586b79f6c9bf802"
+    ],
+    "services/runtime_paths.py::detect": [
+      "686d18968e94522f4e21369e62f67eaffbf15c56d33dc2b17cff86bce4fd032d"
+    ],
+    "services/runtime_paths.py::ensure_writable_workspace": [
+      "35003c46e62c8782a17bed6c5c6b0e3474fedd2aaf1f83d28349da175cc9e4af"
+    ],
+    "services/runtime_paths.py::icon_path": [
+      "e453eca0c30a26aac09bae4e3d6c3b0fcd32bdbc7a1f725daa897984efc35f33"
+    ],
+    "services/runtime_paths.py::resolve_workspace": [
+      "895048c3fb9ac4176252429fb5d9f89427bb83def98d1702c6711f51830dcbb9"
+    ],
+    "services/runtime_paths.py::runtime_label": [
+      "9d81f60adebbd0996bae96b705ded4b4c33323c5a99f4c83707b36993d52903e"
+    ],
+    "widgets/code_editor.py::__init__": [
+      "1e16478d4ed3e5789a79e1c2901ca4419daebb10bf4c0ef1cf31e7c5dfcdfdb3"
+    ],
+    "widgets/code_editor.py::delete_selection_or_character": [
+      "14853147e495edd22a850ccab49b9e84ee9871e5a69de8db341cf70246b4b4ce"
+    ],
+    "widgets/code_editor.py::go_to_line": [
+      "8e0da15c6730879bbc16592853d523dd3022085e18ec6de71f093846d9cf7b67"
+    ],
+    "widgets/code_editor.py::is_modified": [
+      "7a249f035fc4f1bb8a1feb2f010149e78bf774ebfecef214fa6ca481df46554e"
+    ],
+    "widgets/code_editor.py::keyPressEvent": [
+      "812837edb87eb806bf2a3a37fcbedaa7d6b699c9a291b0ff8a1fbeb107105ef2"
+    ],
+    "widgets/code_editor.py::mark_clean": [
+      "078c08196401b668c1a1b81c37ebe05de282082ce955ba85254c58baa29e6707"
+    ],
+    "widgets/code_editor.py::paste_safely": [
+      "978cb1f3954487c88c1f6fd5ffcf6d57441dac66ab686c35fcce07c7f1eb7082"
+    ],
+    "widgets/code_editor.py::select_all_text": [
+      "9ca6de0c3e198255a029e14486e7ccff6c534ccc6d093d82e806327587fdff06"
+    ],
+    "widgets/dialogs/about_dialog.py::__init__": [
+      "0340465113020c8f2385b6ec74250956e716803fb9cd09362c4a4f17d7982bd8"
+    ],
+    "widgets/dialogs/about_dialog.py::_open_link": [
+      "93eadfa1102c627f8dc57d3e955d0cc77668d1f73897d1bff1340a470179ebed"
+    ],
+    "widgets/dialogs/closing_dialog.py::__init__": [
+      "175d5d96ef3edf5b6830f6618621411c4417638261f312ac106f236333f1ca05"
+    ],
+    "widgets/dialogs/closing_dialog.py::set_stage": [
+      "c99b1cdf6a7409602c404a29f35f91cf8b6bee715b6a410aa28c55f011db1869"
+    ],
+    "widgets/dialogs/closing_dialog.py::start": [
+      "9d084fc5e15b5a76a174c02d1247bb3dce048c51db996560f3f6d6a5b61f6481"
+    ],
+    "widgets/dialogs/first_run_dialog.py::__init__": [
+      "c2b74f4cbdb9178f7831c6a5619d29372da3f6bd54e26be040b6105221e0bb58"
+    ],
+    "widgets/dialogs/first_run_dialog.py::_browse_existing": [
+      "137a17d6a58203b3800d9953caf6b7f7fdf6d3deb23666927de78861920a6e3a"
+    ],
+    "widgets/dialogs/first_run_dialog.py::_browse_new_parent": [
+      "444d96cb526b28e846c876d1f2d802064f85bfe87e2e042d3c814bd32fc64763"
+    ],
+    "widgets/dialogs/first_run_dialog.py::_candidate_workspace": [
+      "f491ca043582908942b6d90c082ed066b3d863ae1258b41abcfc9a5fa65e61f8"
+    ],
+    "widgets/dialogs/first_run_dialog.py::_finish_page": [
+      "ebcdbd222bc8293d0294d40c63716f13e051666ca4e78701a38bf7ec1141602d"
+    ],
+    "widgets/dialogs/first_run_dialog.py::_update_finish_page": [
+      "aeb6885a37d452ef26d6cc25926484da2da02d2bf90c65f07cf8b04c39e4856c"
+    ],
+    "widgets/dialogs/first_run_dialog.py::_welcome_page": [
+      "582644cd36b0ff4f7fc6b0af63508bb29824233ed44f6e5e3974129dcaba775a"
+    ],
+    "widgets/dialogs/first_run_dialog.py::_workspace_page": [
+      "3827a50f8661cd1fd1d0f6b7674dd44991d3747a0680f67127d35240882111de"
+    ],
+    "widgets/dialogs/first_run_dialog.py::accept": [
+      "8683e9eebc7f9812c834fe6c6198db6226377de1d73651087ab1cb084f6f0da7"
+    ],
+    "widgets/dialogs/first_run_dialog.py::selected_workspace": [
+      "7a9d202d0c014aaf2d977ef599f836cb3181d270b5c082d10ef6b9c9446c7b5a"
+    ],
+    "widgets/dialogs/first_run_dialog.py::validateCurrentPage": [
+      "e0d37e8e6b4afad2348bc85c9d1d7a40367e686d3b2f0dfe137cd15efb3b3a67"
+    ],
+    "widgets/dialogs/projects_dialog.py::__init__": [
+      "34fbfb7a843422f8e36a2268c26059a83b5c41c0c4a5fa66e35cc5d5ce4e8566"
+    ],
+    "widgets/dialogs/projects_dialog.py::_accept_selected": [
+      "ca7647c3207add605a2a9fffd15d898e73ad97c89f2c4334ec96d6da7a838719"
+    ],
+    "widgets/dialogs/projects_dialog.py::_add_folder": [
+      "4b9e7a2bc74731da616081a173d6c6a1f68d503bfbf1bf7b618cb80413adc4e4"
+    ],
+    "widgets/dialogs/projects_dialog.py::_populate": [
+      "94866fc22cdc09c7d539b4f2c202219e05b4d563dbf1df9ae983ee402b26bc85"
+    ],
+    "widgets/dialogs/projects_dialog.py::_project_text": [
+      "2b4e46ce566a5674586286735e15bc40d6d84d37e14325fd941f3f5d1c51f7eb"
+    ],
+    "widgets/dialogs/projects_dialog.py::_relink_selected": [
+      "fcc56927bad60ee3522e5d4e7225fba8992d74b33a6b663c4ebb643e1e489398"
+    ],
+    "widgets/dialogs/projects_dialog.py::_remove_selected": [
+      "00a1fa3b6cace3c8bcf4a521fd0d57faf00d9ba52d69ee28396367dd1c0e58e1"
+    ],
+    "widgets/dialogs/projects_dialog.py::_rename_selected": [
+      "be65c8c5e05f2f4a116ff2a9d0ba0a19ced6f33785726777e715e8a53704f72b"
+    ],
+    "widgets/dialogs/projects_dialog.py::_selected_id": [
+      "43da2e60964bad459357764eeb63dd452785a0d9cf79d8a77a65895aa2bb81ca"
+    ],
+    "widgets/dialogs/projects_dialog.py::_selected_project": [
+      "dbe460aeca9b7e6280c7316f2e68b216f659340f10703c260e5b07180e34c3d2"
+    ],
+    "widgets/dialogs/projects_dialog.py::_update_buttons": [
+      "b9f17c766901e17dbc57641f397395f864aa8f4e23acdfc096e93083464900e0"
+    ],
+    "widgets/dialogs/resolve_open_documents_dialog.py::__init__": [
+      "88200eb3014901b97641c545d26c06e2cc3717685c46d3b0ad4dfaa9fe6712c8"
+    ],
+    "widgets/dialogs/resolve_open_documents_dialog.py::_accept_with_ordinary_action": [
+      "6af1d7bc26f2b61e2771a2155d345041e669601fc0b0d71fb112e072320554de"
+    ],
+    "widgets/dialogs/resolve_open_documents_dialog.py::_set_ordinary_action": [
+      "dce0bda2833f4842926fe150a1b4dbe7446a31727f1de15e8375e0d37fb6c8f6"
+    ],
+    "widgets/dialogs/resolve_open_documents_dialog.py::decisions": [
+      "93def1ca9f05e5c85046e0a15995a6cd1e54fbdebc7e3d14beded950292b9cd5"
+    ],
+    "widgets/dialogs/shortcuts_dialog.py::__init__": [
+      "3175e5309ad34b8a560fc3c5b680231864a7ead3f4cd598c12e0074e7c52f35a"
+    ],
+    "widgets/dialogs/shortcuts_dialog.py::_apply_filter": [
+      "ce7d635fbee69257dbc1ca33ceccb3228449acc529759d292a51d3cc582cb5b4"
+    ],
+    "widgets/dialogs/shortcuts_dialog.py::_shortcut_query_matches": [
+      "3320f9d00fecd1419d8a8a0e57854b2f1462575de6871e3a88bf494aced26995"
+    ],
+    "widgets/dialogs/shortcuts_dialog.py::_shortcut_tokens": [
+      "529be404f274c6794e0c1c35f547652c6d7ef8984513c3267a088ba7d25cbb33"
+    ],
+    "widgets/editor_commands_appearance.py::_add_action": [
+      "bfab9442e71cb8ac843102de3b296a341edbe0183931ff579217d2022242ecc2"
+    ],
+    "widgets/editor_commands_appearance.py::_build_menu_bar": [
+      "fdd8447b884a372b6e447a22863de1738da0edccab0582179ea7b1b40bdeefd2"
+    ],
+    "widgets/editor_commands_appearance.py::_choose_display_font": [
+      "14f300f369a365547f08b52845a9e1093bebb1264c615cc9acf0e6871f815f32"
+    ],
+    "widgets/editor_commands_appearance.py::_choose_preview_font": [
+      "881e60dd477adfbe6a6ea59d61760ee60787127a92469b88d47f0b0577ad1d9c"
+    ],
+    "widgets/editor_commands_appearance.py::_command": [
+      "60f6a57e02c05cffebada98d47782998931c23ce47a3ae00b3ecc7a03c4a2c29"
+    ],
+    "widgets/editor_commands_appearance.py::_refresh_action_icons": [
+      "b5919240a3342b4436ec8219238b2cb144374595381cf3fffa200feebbc88efa"
+    ],
+    "widgets/editor_commands_appearance.py::_set_theme": [
+      "7bbbfd47c6ee31b0d1f368f194d427dfad09435398e41476fe5642b284a8959f"
+    ],
+    "widgets/editor_commands_appearance.py::_sync_editor_view_actions": [
+      "5687b5c32fab8ad4995db8a07d1e402ee0997fdcf8735b752a229d511234a2fe"
+    ],
+    "widgets/editor_commands_appearance.py::_toggle_editor_canvas_light": [
+      "ef5b4b774daabbcdfedab8fc025229c2764b306e6f5a5c111813de772c63e9ba"
+    ],
+    "widgets/editor_commands_appearance.py::_toolbar_icon_path": [
+      "6ea1b949598ee71ffbb60bff6c05a8c3c3891b0252c068d3d9804c5733afd8a2"
+    ],
+    "widgets/editor_commands_appearance.py::_update_action_states": [
+      "00bc159f2037f892a6260a9368f387b2c43231c8b260e8080c21cefce486f873"
+    ],
+    "widgets/editor_lifecycle.py::_confirm_close_missing_backing": [
+      "5e9673df709c4880b3e4c744f6abb9b48ca108a222e6bebfcd651226b1c5aac3"
+    ],
+    "widgets/editor_lifecycle.py::_current_disk_snapshot": [
+      "67224095d495e0a0075f067841d6671fc3d0f064add02452d42b7f9881f4baf1"
+    ],
+    "widgets/editor_lifecycle.py::_decode_source": [
+      "4bb15f96e4b56582f0dd9ab253d389c5f892cbbe1572d6ae1b1fdb25cb7fa36c"
+    ],
+    "widgets/editor_lifecycle.py::_detect_newline_style": [
+      "54d4f793b705107524fc3d52e62058a96d810709b91e8074980a4c9f7ff71f3c"
+    ],
+    "widgets/editor_lifecycle.py::_encoded_editor_payload": [
+      "3fcb35117856194140439a6cb936d45a18735f9b07be29dace2fa7d695c3864f"
+    ],
+    "widgets/editor_lifecycle.py::_external_change_action": [
+      "18172c643179550752c1e694f9ee2d566d3ff0e7b464fafbe90707d0a4eaeab7"
+    ],
+    "widgets/editor_lifecycle.py::_has_external_change": [
+      "6fa9223f36edfafeee4c4aa3009bd2da070a6b79dc8278f3a40992b154a5a92f"
+    ],
+    "widgets/editor_lifecycle.py::_looks_binary_text": [
+      "b66aff735f59f5afdea00a66d9bea9c84f15d9006e02319fcc385477af5e90d9"
+    ],
+    "widgets/editor_lifecycle.py::_on_modification_changed": [
+      "d7828b58aadd2af2b083259a1cba4b02e64ff003fc08c81bb94b78dd07ff5672"
+    ],
+    "widgets/editor_lifecycle.py::_on_module_path_changed": [
+      "ab4ad576aafa8a49562dea7a974dd5b6235fbded4e30f5c8aee581b3cded3440"
+    ],
+    "widgets/editor_lifecycle.py::_on_repository_module_changed": [
+      "c6fcd66c1b80e6074d4ef3d215da56654631feba457a6c6b17d00c2ffd626df2"
+    ],
+    "widgets/editor_lifecycle.py::_reload_external_change": [
+      "ec0b7501cca8f4722f7686f70abfa0ef469a8f3701950413da97480b0ddbfb14"
+    ],
+    "widgets/editor_lifecycle.py::_save_editor_version_as": [
+      "f33cba31fbc69b57555144fa3b70d3c4989fd597a6e4ebe4e055adc0e2029635"
+    ],
+    "widgets/editor_lifecycle.py::_set_backing_state": [
+      "b1e68f0019b6a99fda9d942446b567302a4e3fac99fe76b1da89246509ce9b99"
+    ],
+    "widgets/editor_lifecycle.py::backing_state": [
+      "91fa3544c9db62989ca4cb5a085c0b56ba6d4f98a763e5ee5acf4e59f4bddc3a"
+    ],
+    "widgets/editor_lifecycle.py::can_close": [
+      "33c9a07ef940e8c7763167161be1ac27661ca0b4044cf9990cc9ee718a14d9a2"
+    ],
+    "widgets/editor_lifecycle.py::confirm_reload": [
+      "8071c29c398531e79288912a07170b851f681eaffc90ff5790c9e374b146803f"
+    ],
+    "widgets/editor_lifecycle.py::current_markdown_payload": [
+      "9c320b7ac5e654b48d09475917402ea8a2d27f21d3acd1dc2f14f9d53b67c1e7"
+    ],
+    "widgets/editor_lifecycle.py::handle_backing_path_event": [
+      "3bacbe03e893f35d2a2a66d6f808cee938932823600e141edadafeb81f891c24"
+    ],
+    "widgets/editor_lifecycle.py::is_modified": [
+      "a2787c2e4d6a96aab339a7b4c7db738376243c711c16ce0ad9e30875c3753526"
+    ],
+    "widgets/editor_lifecycle.py::load_from_disk": [
+      "202e716ea64727c25613ac1a17baa58f6c9a071547a7a23596fc9c94dc791c01"
+    ],
+    "widgets/editor_lifecycle.py::save_as_file": [
+      "ece7fade22a8be773180183ee4a102dd366ece3e81f65fb260b613226d13f3d3"
+    ],
+    "widgets/editor_lifecycle.py::save_copy_to": [
+      "92c33b5ab51f05f7b0f8d1335589b64fec9c96c512cd5a75ed9d9498e1fbd5d7"
+    ],
+    "widgets/editor_lifecycle.py::save_to_disk": [
+      "3dbc2df2a8b970e94e59374678f078fb777b40ba1af957b83bc7d43bc3215c69"
+    ],
+    "widgets/editor_page.py::_apply_presentation_safely": [
+      "819e3ad29cf6d822c7c729bcef030f9741929bc74fea182070426467344eeaad"
+    ],
+    "widgets/editor_page.py::_dropped_markdown_paths": [
+      "b7f7bc27a8ef84c0b66908924a9d51f61b9040dd2c5199382bd5f708b43c0204"
+    ],
+    "widgets/editor_page.py::_emit_undo_redo_state": [
+      "b2e7d884362a143eaf763eba68a64eaf464c95eac035903f164d18bb089f4164"
+    ],
+    "widgets/editor_page.py::_host_process_environment": [
+      "a443b7c3a44aa97583368622d849cb6e52796c937d65cda48cbe7fe4ec188eb3"
+    ],
+    "widgets/editor_page.py::_insert_curated_symbol": [
+      "3a651eaa368f6b257eaf06828d6ea8c75d23fc00c727a95b5b5c4f57f89a84a5"
+    ],
+    "widgets/editor_page.py::_open_more_symbols": [
+      "f7f84de00b2d672910bb0f28e893eb11909291953a57042b24ad4f0a99fb9584"
+    ],
+    "widgets/editor_page.py::_refresh_header": [
+      "d76437be95bd748e01cbc539de3a3130c993a8430d45e184b08ac1fd9474acd4"
+    ],
+    "widgets/editor_page.py::_remember_splitter_sizes": [
+      "def6f90973ee258672a84ad5624995cefa761cf975dcb0009a6ab1834e7d3277"
+    ],
+    "widgets/editor_page.py::_update_operation_mode": [
+      "1ef000b95d9472ada22a3c91726fdad8b3738bb010173c6b1ce8cd8f8c6f13a3"
+    ],
+    "widgets/editor_page.py::apply_preview_font": [
+      "0818a316f5e2bb6ee7b491439110288d5e03c1cd3841a7fa0e6671f12efaa62d"
+    ],
+    "widgets/editor_page.py::choose_display_font": [
+      "5340ce244600a53f80cd7b737301180a0667cfd4dfd1a49ffadedbb802e8b7f3"
+    ],
+    "widgets/editor_page.py::choose_preview_font": [
+      "12ed944b8e6738f68c5d1782dc4dc65b01568689e09534fb24f0566b2fd3ef15"
+    ],
+    "widgets/editor_page.py::dragEnterEvent": [
+      "4e5a2e54db4fadfe0d984dadb2aa43531d9e6c707cd92c3283eaebc90c55d5fe"
+    ],
+    "widgets/editor_page.py::dragMoveEvent": [
+      "4e941ad2d9b2d9ceba3cd610c62618f2ba72b73e6e5826d2dd741c516180655f"
+    ],
+    "widgets/editor_page.py::dropEvent": [
+      "894b579b1ccbf4f331dafa8eb2bc86ee585234e5c6af331047406b7c58ced6ca"
+    ],
+    "widgets/editor_page.py::preview_base_font": [
+      "46b0e8358b443b252eefadcb998e0c300cb52a8ec343f4b282219435835281b7"
+    ],
+    "widgets/editor_page.py::refresh_preview_now": [
+      "1aa972240c7c5ea9c9cbaf404d88035664f1aff1b4ac6e7ce39a40211abe96c8"
+    ],
+    "widgets/editor_page.py::reset_content_splitter": [
+      "7c1aba8fa1af5d509eef2f6c9ebeceb3462d33d80eb5f9d60811e9e9babc48ec"
+    ],
+    "widgets/editor_page.py::schedule_preview": [
+      "ad7c992cb4164247aa8a5893e4e8c67a03202c72ea7d541dd1be346727ce44a7"
+    ],
+    "widgets/editor_page.py::set_header_visible": [
+      "7011e238fa9ac5018f80fcfe8267dd761e3331e8abdcc3c15761edbac4c651f7"
+    ],
+    "widgets/editor_page.py::set_view_only": [
+      "e95fe16a4bd20c7c0303ab9060e30f2e87d16157c44aa9b1712d13043ecd4938"
+    ],
+    "widgets/editor_page.py::show_editor_status": [
+      "7922b12047e477d7cc306cdc0990c12188ee5f94cbeda39c29d68ce9dfa7c6cc"
+    ],
+    "widgets/editor_page.py::show_symbols_dialog": [
+      "538c2d45b270cd04ee562a3f3b84c9117d4a8e978c5f691c71daec31cfeb6787"
+    ],
+    "widgets/editor_page.py::show_view_only_edit_prompt": [
+      "0024109006d2f0b3cc1d8b06a6914ad47c63faa3a310a170ca9b7b7d28a2b613"
+    ],
+    "widgets/editor_page.py::toggle_view_only": [
+      "503c462551497bb4837ffa1960d1a784c264b834db22e036b21da63c336e0195"
+    ],
+    "widgets/editor_page.py::update_effect_availability": [
+      "6ed9cc6813984dde93eec3baeae99290835e23aadab7dd35fa33930205099c54"
+    ],
+    "widgets/editor_page_commands_appearance.py::_apply_preview_link_color": [
+      "e862704296283d2f6583db06d237fbcd8eac89f90eb6cda7c836eaf134ec741c"
+    ],
+    "widgets/editor_page_commands_appearance.py::_apply_preview_quote_effect": [
+      "6d1a33a6227b8031fc09c22e7627f9be7a8db4e1f2e43fc1b645890c6bcc1109"
+    ],
+    "widgets/editor_page_commands_appearance.py::_build_editor_menus": [
+      "3731b119b4680858cffff9300a0a3aa5f7694efe6c1ec037866ef7fcdd191ac5"
+    ],
+    "widgets/editor_page_commands_appearance.py::_canvas_is_light": [
+      "75922b1030e4bb9a2f5d2c8389ae6901cc055a1fbbe5ac9acae2cfd172b9d874"
+    ],
+    "widgets/editor_page_commands_appearance.py::_menu_action": [
+      "1614c19d64fa4302739d53a25f2f4d34324f5954ec91e9ac097eaa20ee307410"
+    ],
+    "widgets/editor_page_commands_appearance.py::apply_canvas_theme": [
+      "512b96bedff4afe568f51ce5b707ae6ac116047562be0e4ba114195f249ae0f4"
+    ],
+    "widgets/editor_page_commands_appearance.py::apply_theme": [
+      "0f3d499fbd9837d1872c024e3d5e6113577aaa9edc650961cb86b1366a7abce1"
+    ],
+    "widgets/editor_page_preferences.py::apply": [
+      "1478a6d514a310d32de76985c53768f4d5143f799074a9420fe9f8d6adb6b0ea"
+    ],
+    "widgets/editor_page_preferences.py::apply_preferences": [
+      "58557f76866aabee4da6abce83bb57d1d40a4f96d9ff8dec4e9f95b8a7e2c88d"
+    ],
+    "widgets/editor_page_printing.py::add_group": [
+      "a83dcc95b11b262d0c24e39d8723bab77db6e85c7534fff31a6410c6f660eb68"
+    ],
+    "widgets/editor_page_printing.py::show_properties_dialog": [
+      "5e7dfb5801bcf7a42c3bfe360a86de1b6d108745e9e221c08c8daddf78314d3e"
+    ],
+    "widgets/editor_page_search_view.py::_ensure_search_matches": [
+      "19f472f5cbeabfad9d178a302006a1677b640c524a95be01efb6569c4c3d02d5"
+    ],
+    "widgets/editor_page_search_view.py::_find_replace_match": [
+      "4d561fe0760c664add3543c41971ba16119aa5295d3211d14b7a99f14f7a1cc0"
+    ],
+    "widgets/editor_page_search_view.py::_jump_search": [
+      "59febc99efb9af68dab58c58675e3a54925546e809c84fb42ee35b7b69c6599c"
+    ],
+    "widgets/editor_page_search_view.py::_replace_flags": [
+      "be4e0f347cf4907e5466630f502018fa0d43b257a9f7c26af2389469405e30b6"
+    ],
+    "widgets/editor_page_search_view.py::_selection_matches_replace_query": [
+      "2c4131cf1ba56b4b38920a8919079767336cefd29d3efa73bda9a27c7c969da9"
+    ],
+    "widgets/editor_page_search_view.py::_update_search_counter": [
+      "2def1911a3e7537d4d7ee2b49be05dbd85e24982497d4cdc61e31f2b124e8fb4"
+    ],
+    "widgets/editor_page_search_view.py::clear_search": [
+      "a2480013edd952db677c376ea0afc4637c1aa90b572b32ee47d1b4b6b558aed3"
+    ],
+    "widgets/editor_page_search_view.py::clear_search_results": [
+      "de1b116144b581cd6db8196aaa3db8a27fb7626379bd0353995a4d1382994c04"
+    ],
+    "widgets/editor_page_search_view.py::find_next": [
+      "b97a5c243290284b49dc7add6cfcb59fc94ef87e16972a8630396f6ee59406c9"
+    ],
+    "widgets/editor_page_search_view.py::find_previous": [
+      "447c968a9812cf0f08dc57b8aeb788717667b10516f6479c2d5281e94834416e"
+    ],
+    "widgets/editor_page_search_view.py::find_text": [
+      "b12eaa054215f46b3cd3663676d977f35546a556f74f85cde5d6fe1c16458991"
+    ],
+    "widgets/editor_page_search_view.py::find_text_and_refocus": [
+      "438de10a7652c862ed4582a88aa43968562a17777cb45c0398cb6b767dd9320d"
+    ],
+    "widgets/editor_page_search_view.py::hide_find_panel": [
+      "a04d1304169613b9bbfc3d3d67085b0bd65b80553dc6953575f6799826434a97"
+    ],
+    "widgets/editor_page_search_view.py::refresh_search": [
+      "a8bae60565cd008e331d97169ea73c414d8c3847d270a17fb9fc2ea2a5531122"
+    ],
+    "widgets/editor_page_search_view.py::replace_all": [
+      "324e458af5c4f67978b23a316dc5737ceb0bc73f0527af8800d56ae421f8ac19"
+    ],
+    "widgets/editor_page_search_view.py::replace_current": [
+      "768692f009a51f210cf7d5c9292f2780016c1a2806c5f0dd3d764e9e07f9b756"
+    ],
+    "widgets/editor_page_search_view.py::scroll_to_top": [
+      "2031dbb96d41f499dca6ed45b2c153159649abf1b28d52e6f0a73692f3e82c2e"
+    ],
+    "widgets/editor_page_search_view.py::show_find_panel": [
+      "34f74821d6a7a4e893e22af37e62481c97a316240b824f3c2684952a00245840"
+    ],
+    "widgets/editor_page_search_view.py::show_go_to_line": [
+      "616fab645601d8adaf2edd33b1adf6ed84c47b3d44f9cbf58770e50f24412421"
+    ],
+    "widgets/editor_page_search_view.py::show_replace_dialog": [
+      "f6cf56bd67da8c4bc840a394f0037610cf31b33ca2527901fbbac532307d0a3a"
+    ],
+    "widgets/editor_page_search_view.py::toggle_find_panel": [
+      "f1974ea7ca0d3a771567b5ba070983bfb867b2011926f1dec4a762f26fdf2e8b"
+    ],
+    "widgets/editor_page_search_view.py::toggle_line_numbers": [
+      "9587d32f2615e8222b923db823acd237932380e1253557eb2ffbd481212b3ae3"
+    ],
+    "widgets/editor_page_search_view.py::toggle_word_wrap": [
+      "802d580e1ce9fadadc8e08deceb88f251557d14362f0f845446cf6f152848369"
+    ],
+    "widgets/editor_printing.py::_export_pdf_current": [
+      "81d95f8447625f2b3421a2acc1f26dc3c8ff55c839696b7d3571c684b7954d99"
+    ],
+    "widgets/editor_printing.py::_print_current": [
+      "9098438038bc16d0cb7e453c686847ec2e08f7df1c92e945a9e7995a608e60f7"
+    ],
+    "widgets/editor_printing.py::_printable_document": [
+      "be9300928432bc26f13b7c62a79164c1639bf944230a715e07f2d5337b985c0e"
+    ],
+    "widgets/loading_indicator.py::__init__": [
+      "e55020473b9cf04cb7125013cc3f5328b5df915b90ac2f0def40b8685d3c9c49"
+    ],
+    "widgets/loading_indicator.py::_advance": [
+      "72071c32a83a6bfc3b07ed717b061f38322ade4178cb7a6f9689e01b023b5981"
+    ],
+    "widgets/loading_indicator.py::set_detail": [
+      "2e2caaa6f16b06338a6276c57d9bf220ae17ebd8b00013df8367582631ed4126"
+    ],
+    "widgets/loading_indicator.py::start": [
+      "46de65e902b87fcaff3e61717cab8cbd215af2d2ddc56956d2fb6a17aa1bf9ec"
+    ],
+    "widgets/loading_indicator.py::stop": [
+      "baa667fe34c3a71a2a00ef91f8bc79d4a074153080c0deb2a71dbaba4589a5b4"
+    ],
+    "widgets/main_window.py::__init__": [
+      "2a204b19f9075737ef5c13d497f19e669c3f40f51eb8014dcc01a3eead33e021"
+    ],
+    "widgets/main_window.py::_active_text_surface": [
+      "71698d57c8472293ca41c23d26adabbacfb0ec2244ea29f3b27e14141654b288"
+    ],
+    "widgets/main_window.py::_apply_active_project_state": [
+      "4fdc18dcfaa1fab93328494a994d65493652697c79477b0f1996db10887af6cc"
+    ],
+    "widgets/main_window.py::_apply_external_verification_mode": [
+      "3d1ca83e648e8509fc47329e41feb31c1effe2d219642950a8822b41155de7a9"
+    ],
+    "widgets/main_window.py::_choose_tab_width": [
+      "dae01d41816c85f8b2da10173dbb41b3fd470e229964837597a0f327c0d8f4a3"
+    ],
+    "widgets/main_window.py::_connect_signals": [
+      "6fac306a4e382e8d7949dc7b14543ca6f0bbfcc186c787997e79df9090338e3d"
+    ],
+    "widgets/main_window.py::_connect_watcher_signals": [
+      "4dae91f919b10ffb9264874a2923f17118939ebd2cfa2e95e24aa027412eb11f"
+    ],
+    "widgets/main_window.py::_copy": [
+      "27a7f9320424bfe23af6123cbeae6cd11626935ef243bfaf8b7301aa6cf7f036"
+    ],
+    "widgets/main_window.py::_create_folder_from_dashboard": [
+      "f0e8fa082de8055356855bb75ca0329420068cbb1df04008a6850e3f65277412"
+    ],
+    "widgets/main_window.py::_create_tabbed_toolbar": [
+      "e64e402eeb034b444545110cdfc396b16d72211432e5b2d51493e7b37d4e12c7"
+    ],
+    "widgets/main_window.py::_creation_folder": [
+      "90e9c83a99b0ff45b84d6a2f5915f7d9b88f1aec4a3e726bf47ae25979c20311"
+    ],
+    "widgets/main_window.py::_current_module": [
+      "972db00f240733b2466eccd6c366aebad97b107800d85427f13638f63dc8b715"
+    ],
+    "widgets/main_window.py::_current_page": [
+      "aa1dda49820c505486e9590287f88d54ece7d236112b25567f9d108245dd9f20"
+    ],
+    "widgets/main_window.py::_cut": [
+      "596aab0b36a3b38f6de12ec951893705b100428725445515b52a745936cf8f73"
+    ],
+    "widgets/main_window.py::_delete_current_file": [
+      "acdbb3e0c44082ac676e45e793db107dfafb3105327db62551cefbad12456459"
+    ],
+    "widgets/main_window.py::_delete_line": [
+      "b95907c5304c76675769c87b4e903d8a5f80c4eb06684794bfb0a17116af2fc9"
+    ],
+    "widgets/main_window.py::_delete_text": [
+      "d371f82361f0333d991a274defdbcc00da443a015b70c475caabf0c161891efd"
+    ],
+    "widgets/main_window.py::_duplicate_current": [
+      "2d6ae27c94f79cb6fb962b185fe169a78983b71664892084f01ab648b15e716b"
+    ],
+    "widgets/main_window.py::_duplicate_line": [
+      "287f278c4ef5b0b8602317369eb8a5cd7eca238169417f97eb450a57581f61f6"
+    ],
+    "widgets/main_window.py::_edit_link": [
+      "43636d2b6633ec70f4f13b5f306c3b6ad363891062941cfc33ef1b9b422c31f9"
+    ],
+    "widgets/main_window.py::_editor_call": [
+      "c4475ddbb4dbf3d495b00e5b6f3f5496167c09d26599f7af4af8ca1f084dcd4c"
+    ],
+    "widgets/main_window.py::_focus_find": [
+      "5466319b2e2895f1813a8d71e0ac6b85889a3a883e3f46aea72e808fd9ae6c1b"
+    ],
+    "widgets/main_window.py::_focus_replace": [
+      "83c5d609d3baaded5d27a17fe17c596340c846568181f0a7fbef6ef5c5491f99"
+    ],
+    "widgets/main_window.py::_go_to_line": [
+      "d80ac403c4a7e712c35f6d85ced56b8a0ab942d7406220d3a66719e7503ef1ea"
+    ],
+    "widgets/main_window.py::_handle_app_drop": [
+      "3c933859b2ffb76311290f8e11b6f2d7916b846323d3313231188062ac02beaa"
+    ],
+    "widgets/main_window.py::_handle_editor_file_drop": [
+      "908c5df133bca92014575c1d6872569c27bec75602c2192a4771b1e430925c58"
+    ],
+    "widgets/main_window.py::_import_file_into_workspace": [
+      "b0dfa6f1c4d4004b70e5c46bb89469f03680599536e246fcf8992029c8b569b9"
+    ],
+    "widgets/main_window.py::_insert_code_block": [
+      "f74eebad4330de04e1b70cf44c343d701753cf65c64f609431b95c5051db744c"
+    ],
+    "widgets/main_window.py::_insert_image": [
+      "e6898d8f2d91ce794b3451737b9b04d04c96dce5c5436064889d3057572263a5"
+    ],
+    "widgets/main_window.py::_insert_link": [
+      "4b16067a13edb99d79233832dde148da2557d84f5188d7e074b3cb328f57475f"
+    ],
+    "widgets/main_window.py::_insert_symbol": [
+      "731edf06e72dc2b81fd92f3d6ba03814dbb7bfce9e1cd04f2a670e5b25541837"
+    ],
+    "widgets/main_window.py::_insert_table": [
+      "3c858542a88b82934fe6186fc67ee2db9506d78b5a05c6f97cd9c794f2d7a9dd"
+    ],
+    "widgets/main_window.py::_insert_text": [
+      "83caf46948757ba40f883c47c33d38db9c6332969afe5afb9c40fa4a9bf87ea9"
+    ],
+    "widgets/main_window.py::_install_watcher": [
+      "901673c7215c45ff5a629db6e4f22d98fda3d8e200dbca40653baa6a5fff669e"
+    ],
+    "widgets/main_window.py::_launch_new_window": [
+      "7c23887ac60908331e915502706968aa1cf9ddef29a87dbc210a5f16cdb6dd0a"
+    ],
+    "widgets/main_window.py::_link_at_cursor": [
+      "d50d3e22dabe26b38617fbef2232fed4be6634b4da752625f70d82911a9d5921"
+    ],
+    "widgets/main_window.py::_new_folder": [
+      "6c5147119a56456814f53197e9201834f1a81729d2f1832d1537060fc8f9649b"
+    ],
+    "widgets/main_window.py::_new_markdown_file": [
+      "63bca7b82c43d2508c79da014e87d8bd36499250d79fab922954181786df430f"
+    ],
+    "widgets/main_window.py::_new_window": [
+      "6cf207561c6748bcca64dd63b0e305a3dc7cd45a7afbed4b5d63239ffc24735a"
+    ],
+    "widgets/main_window.py::_on_editor_history_changed": [
+      "ab09b1e1b65842a775c3afc56780d318dfe5ccea933e1c65a0a4f19f53007bf1"
+    ],
+    "widgets/main_window.py::_on_file_policy_changed": [
+      "c1426505088d5a213432676b31b9e607920c10b3047f61ab28a16e84f9391fd0"
+    ],
+    "widgets/main_window.py::_on_folder_renamed": [
+      "fa0c7994c4eb0d989c39c3fd7b3cd68b285cb77a1de381dc86c4ee9d921211cd"
+    ],
+    "widgets/main_window.py::_on_scan_details": [
+      "6cd79640eabdddf6498ed083e90681e91aa8da7ca6c0650a90419076915f526f"
+    ],
+    "widgets/main_window.py::_on_scan_failed": [
+      "2bc9b2d87391883dad9d4a7ebbce1cb15188c85dea19ed880854bb5afb6dc430"
+    ],
+    "widgets/main_window.py::_on_scan_finished": [
+      "65f36d27ab8acb4edca33126fa95c8bf4ed7315b07436b162763c4d4916474ca"
+    ],
+    "widgets/main_window.py::_on_scan_started": [
+      "1d9b7d6244b84936d89eab0e8039fafb3b47001092b5e17db356f4d1e2541a87"
+    ],
+    "widgets/main_window.py::_open_current_document_folder": [
+      "037f8d594fc9de7f03b872736d44652d580ad34fed9e0f1a2035860f0dc79cd5"
+    ],
+    "widgets/main_window.py::_open_current_external": [
+      "7aa12309d077aac0d51de3264881eebb79c2263e8dadf7835bd7afc815fb3106"
+    ],
+    "widgets/main_window.py::_open_current_folder_external": [
+      "f13bdc5602712f0cd8dc74ff503d2d8f7ae9ff429e25f82d2802d4ca99bf4c38"
+    ],
+    "widgets/main_window.py::_open_external_file": [
+      "4a9b44262ae6089ddfcf309dbad62bc011a7d8438c8ec0eb633da61157fbd28d"
+    ],
+    "widgets/main_window.py::_open_external_path": [
+      "f5fd483567ee4b2bcbcc401da8739503aa553ff7ef5028a6c6383a40bc58a9a4"
+    ],
+    "widgets/main_window.py::_open_pending_if_ready": [
+      "5dbae81fd5ea0df96988b7cb0101ef752241b88cd1fd7d49f3116f1228bfdb20"
+    ],
+    "widgets/main_window.py::_open_sidebar_module": [
+      "6659b3705d31eda406b922653efe465842c5f7eaeecf2f27f862b0e0363869e7"
+    ],
+    "widgets/main_window.py::_paste": [
+      "fc7ba878fff3ffc4cd08eab45e444ce6f0490bef616425d0368537a429440be4"
+    ],
+    "widgets/main_window.py::_paste_plain_text": [
+      "125859029c12d52c8109789d1a70cdd7147f6aad652d6942ddc6db906c4f6c74"
+    ],
+    "widgets/main_window.py::_queue_created_open": [
+      "a6ea532aef3925fb510d2da682eec37ccf09cd313577eeb69ada795349f1a0c0"
+    ],
+    "widgets/main_window.py::_rebuild_workspace_menu": [
+      "cd5bf98588e8f8c7b990d6f4784eae69fdc7e7c75046b5d836fe445fc8a31fbd"
+    ],
+    "widgets/main_window.py::_redo": [
+      "744d0937eef3046ed73b35295e9b1a1353dec710d2fc19eb9198012dd72e33ed"
+    ],
+    "widgets/main_window.py::_refresh_workspace": [
+      "60b189518f0b6bda72764d16494a72e61679f77b00329120aa110ef7b25dddc6"
+    ],
+    "widgets/main_window.py::_remember_last_opened_module": [
+      "e24b700cc0b13c28b5f3a9895453f7f97812e9760bce64bb7487a0c89f99e570"
+    ],
+    "widgets/main_window.py::_remember_renamed_module_path": [
+      "59ccf5f1aa6b68953928bf7e8a6fe6c4328473f1d47f65f4bb2c34fc24faff59"
+    ],
+    "widgets/main_window.py::_remember_sort_mode": [
+      "425e29a53683c1b2a79f0940f626cb2ccb27126bafd8924ca7daed39e437881c"
+    ],
+    "widgets/main_window.py::_remember_view_mode": [
+      "eaaf6df38b67f4594922d18a21952b8b4f73728b51eee5a9905c01c024f0da59"
+    ],
+    "widgets/main_window.py::_remove_current_folder": [
+      "6dd958bf47531533367c07b549504d22dd69be93dab5f465abb81a5b03362db3"
+    ],
+    "widgets/main_window.py::_remove_link": [
+      "5f71e193d8941870e56f7eee5239d460514b66aeb5c1094c53c1599917f4c8f0"
+    ],
+    "widgets/main_window.py::_rename_current": [
+      "4b8352fa410ea079fd20538ca4adb7d2d0648610ffcbaa023d097acc7a482a41"
+    ],
+    "widgets/main_window.py::_rename_current_folder": [
+      "703bec0462dcfef3188c26ea3314eafab9271d3ff3ff08f9508a2f8b0042d305"
+    ],
+    "widgets/main_window.py::_restore_splitter_geometry": [
+      "8cfda844007367552a3b2a09eb4a2a1ef37bc1ab81f6f42410b11cbf74bf1348"
+    ],
+    "widgets/main_window.py::_restore_window_state": [
+      "eb6e9daad7906950241a02cc7afaea1f02cabd92227fff65f858e83c8a3b8811"
+    ],
+    "widgets/main_window.py::_save_active_project_state": [
+      "914b0c2d58796f88156aa015f9c925f60905b53fe371c8e084d03aebbb46bb7b"
+    ],
+    "widgets/main_window.py::_save_and_dashboard": [
+      "2465dcdfac079de55aa46c1c6ae01ffa4f57f1864613625fc455cc50e03cfab6"
+    ],
+    "widgets/main_window.py::_save_and_exit": [
+      "0c951983387fea07e776831dfc931cb5908e824e48a786d1f03dd643f2a473e1"
+    ],
+    "widgets/main_window.py::_save_and_new": [
+      "5344e93b2e2331d1184afb28cb9dac349aa70853ef5337f9b06165988f49f715"
+    ],
+    "widgets/main_window.py::_save_current": [
+      "78b6e7e9f42f3cdb8cf90f7cf7f5a97afdf08d9a79755fca56d9cdb243fc35ed"
+    ],
+    "widgets/main_window.py::_save_current_as": [
+      "aebb10d85beb151b0827590b01b026a952ec40b9d6a5d92bd42b632ba86c6ad4"
+    ],
+    "widgets/main_window.py::_save_external_change_version_as": [
+      "d12e552bbc3a11b49e93e98a1b0e47d929ffe357123be453b6269f28bdf99072"
+    ],
+    "widgets/main_window.py::_select_all": [
+      "6bdf7aca0d03003f2fff55c93d08648a4eab81a98dad9dc1b8df869144116d51"
+    ],
+    "widgets/main_window.py::_selected_folder": [
+      "0d13e2987059ef08841f3b8d06b1920a8b4cca46d582d2753d02d2221ade1b8b"
+    ],
+    "widgets/main_window.py::_set_app_launch_screen": [
+      "189c88715d1c71fd1680c0a0aa686bbe482cd6b73c1efcc90a3a5348e2293b93"
+    ],
+    "widgets/main_window.py::_set_dirty_duplicate_action": [
+      "e29f9324a9c2b1118f4006ffe712d2e8bfa9ef5d093eeb31a9dc9f4698bf04f9"
+    ],
+    "widgets/main_window.py::_set_dirty_external_action": [
+      "272c8167519f1f46fbb37e9c74f9a5db1f7f8d73f914d999762fc98fe083c497"
+    ],
+    "widgets/main_window.py::_set_document_view": [
+      "3c0c0434ebec0544015da28abf74785fc08163b22d0ad08dc20552f9ca0845ab"
+    ],
+    "widgets/main_window.py::_set_editor_zoom": [
+      "f1a79273f092c161ace348bc30c1074feef977af0b2c88ff7234edb0848b691a"
+    ],
+    "widgets/main_window.py::_show_launch_error": [
+      "911681a7f32b0f0259c49a41659b208f2733ef640c2b89b273095c670d57c043"
+    ],
+    "widgets/main_window.py::_show_projects": [
+      "5ec7e076216662619ab9594d3407aba5ca82d2678263835f1fc2284c0c43ad1c"
+    ],
+    "widgets/main_window.py::_show_properties": [
+      "64058b36255ca9a0c3fc31984ecb6f8d44f7bb72d766bc5727e4dee2287198bb"
+    ],
+    "widgets/main_window.py::_source_interaction_active": [
+      "72ac89a04430598ec24d10ffdf181b6f7cb884ec4d3012ce224af947a9ba4963"
+    ],
+    "widgets/main_window.py::_switch_project": [
+      "aa5c3714e49e5f0a39f6cd79d3ee7f7e0a14a0a1d2dd952a95dfab3cd7ce00d7"
+    ],
+    "widgets/main_window.py::_sync_view_actions": [
+      "66b63f201e12d2adc055c7aa0ab221784ef719c5f4b1a6fb7528cb080f235c2b"
+    ],
+    "widgets/main_window.py::_toggle_comment": [
+      "badb5464f9a8cbe8602054d4ccc3fcb364d33a8fa5872a65d0f97134583aac6b"
+    ],
+    "widgets/main_window.py::_toggle_dashboard_view": [
+      "577271ca87b3c81e6ea129d5e1ff235fc70687c0bf50ebf700cd121e08344c34"
+    ],
+    "widgets/main_window.py::_toggle_line_numbers": [
+      "02df07b194e88d59f3068237f2867137deb6f43a98483db4c3a99d982d6cd0b2"
+    ],
+    "widgets/main_window.py::_toggle_lock_editor_current": [
+      "d13cf94ca55efadefa35ebc9bc071904d5ef4c17010397d9d7876c667564b6db"
+    ],
+    "widgets/main_window.py::_toggle_word_wrap": [
+      "b9914ec62894482d03be1ba7cd2df2bc139dc3e937e43415496ed630d743d96f"
+    ],
+    "widgets/main_window.py::_undo": [
+      "9c0f05fc1d99f73738bd6b4e64ec597a1c693928576084fd6a4219760198e289"
+    ],
+    "widgets/main_window.py::_update_dirty_status": [
+      "d8576d9a21100057de8d3f310823168a564e3abc85f83e2236e7b59420ca03fa"
+    ],
+    "widgets/main_window.py::_update_window_title": [
+      "4d78c87165ae4cf946be275aaff0f6d33a8cb077706ee16c3e78c81d9deac2c6"
+    ],
+    "widgets/main_window.py::_widget_is_within": [
+      "662dddddfe86f10cce610cf79d1196ad0b0625ecbe345609a4536d51fbf1e399"
+    ],
+    "widgets/main_window.py::_window_launch_command": [
+      "9a4830760c461f32463443b3ea46daa55e0f36d629f1a0eb93f4874d32b439cc"
+    ],
+    "widgets/main_window.py::_write_shutdown_timing": [
+      "3d25fd39678b9669e62f20dcd58062b1a0c2ffc6e0875cbfa46764af24903f05"
+    ],
+    "widgets/main_window.py::_zoom_current": [
+      "9665e7e3905a8fb4f7b8f07cc260e2b394d1d426d5672b9bb723c7cac0213540"
+    ],
+    "widgets/main_window.py::_zoom_reset": [
+      "cf11b0f98dce148b16cf514de754289d580daf4eea83b63cf1455487ae5151b5"
+    ],
+    "widgets/main_window.py::adjust_zoom_from_wheel": [
+      "3f00e6bba155fbb8de61142c8c10c424fbcdb9e3b328aafc01e03f6f6c3348f6"
+    ],
+    "widgets/main_window.py::closeEvent": [
+      "b668a5875aaef7961866e58d660271c6251e5d8488c0d93bc97a9762e0a4d3b0"
+    ],
+    "widgets/main_window.py::eventFilter": [
+      "e90a2bcdabc85b3934899a5b950dc5e124b373bc0f605bf5c5f0b26bb06db36d"
+    ],
+    "widgets/main_window.py::queue_open_path": [
+      "035e0483a977390003961fdca0ca0b6e4735c141f72a9ab727607f27945cbcf5"
+    ],
+    "widgets/main_window.py::show_status": [
+      "307ba94f60e7ab289237d52311941e5253d055c8ed00456c59507e4bd7707ea3"
+    ],
+    "widgets/main_window.py::stage": [
+      "a1ee3f030f099a56ee92c475ee5473bc16c75b87b6625614d36da6f4e2ca8ff3"
+    ],
+    "widgets/mwpyn/editor_formatting.py::_selected_block_range": [
+      "67bb2c68e5d8fb213e4910e65b2c47e35dbaca2919c5b5f722a2aab2aa6f191b"
+    ],
+    "widgets/mwpyn/editor_formatting.py::_toggle_inline": [
+      "d0b362bd3e5652602933b5116b798ecc50dfae6fbee25a2e8b49705a0dccdd47"
+    ],
+    "widgets/mwpyn/editor_formatting.py::_transform_selected_blocks": [
+      "084f8c142fe99179b8ee28bb53e805a9c05541a2669d1ccca897646c6d4ec5f3"
+    ],
+    "widgets/mwpyn/editor_formatting.py::apply_heading": [
+      "9fc3f573cebad69b1ae99308d461ef8522bafdde24f788cd8afacc91f420acad"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_blockquote": [
+      "dd5e241c8813ec8b11a29af169c6ba06028299aa659e99d290f6eb74619acb41"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_bold": [
+      "0386ba2e59604a10726b34f5cda5cd51b6fe0de7daa5da9c2dd07828a87ddbc2"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_bullet_list": [
+      "a2f08b5f3d624e58feb709d98e2cfcddef1c40ef363c7262d97f57ad19f023ac"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_comment": [
+      "bece66e758acdbeaa470f1eb4f1a24f395eb98a7157e82ab3e53567f6e797e32"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_inline_code": [
+      "7e7b3334d983feda5e9259f034cf20d0887f5f74e80ebecd2f36497a7ca800c6"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_italic": [
+      "2a531af6cd31b8f9387b92ed30a1e0fe2faf10f9e2db2e10691f43caf8d6d109"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_numbered_list": [
+      "a8ff647848aad2d81ea6c62be9c63583c6fefa918c15b81655b3408260b1760c"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_strikethrough": [
+      "37f66ff3f7a0d116feb6d2a62fcf9b39bb61e6509961953edeb43821bede5083"
+    ],
+    "widgets/mwpyn/editor_formatting.py::toggle_task_list": [
+      "00c4542a8b24e2ae8ece5c7305387712fe2c6d5256b54a68db979df0b0ca5e06"
+    ],
+    "widgets/mwpyn/editor_formatting.py::transform": [
+      "fe59248a6ea43ca94aa016831a04d86e83936fcb23cba2423ea2c2296ae5741b",
+      "ad60c463507b7884b2d46398feba4e0873255ab81c3c3f3e2fead7d06cbb362b",
+      "023454895ac1beca8f3530a6616db46aaa974ef2349f164f1ebf24957d1f8f19",
+      "f3c9a97936fe3c04ca036f4d2db82bbbaaab625ad2ba7cc1d6c0d9579b0ae3c9",
+      "2cb8edf6a920be817ff4b22781f9f584935e7d99f42468fbbc9145124423007e"
+    ],
+    "widgets/mwpyn/editor_insertion.py::_apply_pending_full_paste": [
+      "478eae9e67a001e83285082159283138f3d6e431de1fe78b12492804374ecdcd"
+    ],
+    "widgets/mwpyn/editor_insertion.py::_insert_newline_with_indent": [
+      "b5a423b3b1cfb6611eb4d070d8c62702b73906f717a7765abd9b3e4119ef7657"
+    ],
+    "widgets/mwpyn/editor_insertion.py::dragEnterEvent": [
+      "7ecfd762ee41af855d2ec8c24862de19486f4d39e0e4af433fba97f33e51eab8"
+    ],
+    "widgets/mwpyn/editor_insertion.py::dragMoveEvent": [
+      "10fc36a7845d53a51b56cb5705e5b16f4053bcfe30f613195609d13d2a8f91d6"
+    ],
+    "widgets/mwpyn/editor_insertion.py::dropEvent": [
+      "2723ee1c957a44d76ae8a081277e64980381635b008c9f8fc9cae2fb860d361d"
+    ],
+    "widgets/mwpyn/editor_insertion.py::duplicate_current_line_or_selection": [
+      "1517e3cd2c1b30710951b81fac6c1a0f8c7f9d3a1cd1c95bfe93f77d115f9162"
+    ],
+    "widgets/mwpyn/editor_insertion.py::indent_selection_or_insert_spaces": [
+      "523bc68d2aee32a9d2475f3f73cdd892526044dc8abe65e422f1e28419fd7f86"
+    ],
+    "widgets/mwpyn/editor_insertion.py::inputMethodEvent": [
+      "1cc13c75bb938e48628c6f20208cc9d40596fef06da1d75efe43c35884bdc940"
+    ],
+    "widgets/mwpyn/editor_insertion.py::insertFromMimeData": [
+      "b937beb35dc90ee8bda2e06c608dcc743141ac780317d05fdca00823e55560da"
+    ],
+    "widgets/mwpyn/editor_insertion.py::insert_code_fence": [
+      "7f54eea9cc2c29e19529c6738eb378c440be1e337157388dda6be41efb4174c0"
+    ],
+    "widgets/mwpyn/editor_insertion.py::insert_guarded_text": [
+      "1df3f3ab91c7906a9db9b8a7b44e62a10e728a7d60c50a5116557e83b4895980"
+    ],
+    "widgets/mwpyn/editor_insertion.py::insert_horizontal_rule": [
+      "693ad8a154fd7eeb352517c97808ca8d6771bfd9568cf621fb01fd91fe95949b"
+    ],
+    "widgets/mwpyn/editor_insertion.py::insert_link": [
+      "99d668260e26beb39808f7e30d006dde99a2cc07ca13d91e059002df4054ebe8"
+    ],
+    "widgets/mwpyn/editor_insertion.py::insert_table": [
+      "dab43559dd652c277987b8bee528a1519ad871962fb94ba846c5b760fb76d823"
+    ],
+    "widgets/mwpyn/editor_insertion.py::keyPressEvent": [
+      "209cc9c01a4840922080e7ca935d2be190e8e59a7b3046f0eca57e7080d6fde6"
+    ],
+    "widgets/mwpyn/editor_insertion.py::unindent_selection_or_line": [
+      "33ef64e236f89fe6a44eae948773c6f9062fc73461146456a4a54dc91910af78"
+    ],
+    "widgets/mwpyn/editor_preview.py::__init__": [
+      "c677c90e7e1a342ebcfd98581e07eeae4c7ae16b17ff7d1be895ba125a86fc6f"
+    ],
+    "widgets/mwpyn/editor_preview.py::_on_anchor_clicked": [
+      "321db852335a99a05943b31b0b5d8534bded7148f40ece76e84b1736b4db5644"
+    ],
+    "widgets/mwpyn/editor_preview.py::loadResource": [
+      "7c53adc84e5c1756f2f6f0b938b8bba9e4d17748e23eff194c82826620d9bebc"
+    ],
+    "widgets/mwpyn/editor_preview.py::render_markdown": [
+      "14820f048ba183ac7b533a7d8b96cad2e36991115c6181ccb8e4ee3038ea096b"
+    ],
+    "widgets/mwpyn/editor_preview.py::set_document_path": [
+      "f911501fe794ef1d61694591f5c84da712ef554f2d35ab9075f60fe24bfa3c5b"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_fence_info": [
+      "2670d39ddf8b74ac8549156485b344375f0c44e5fffc8db900c9f031e3068da2"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_find_matching_bracket": [
+      "6bc56dba6104fe6f70adb3ed39653fbe1d5b5f5369a63f5a05bb43474b6e76f0"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_matching_bracket_selections": [
+      "54dbef175d0c9f860da3f6fd37b34c9882b3496cf894eca11f4242b4b4d7544e"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_matching_fence_selections": [
+      "f3ff8dda7bd40b0992069d84944431962cd306c347c536b3028bb337a9058976"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_refresh_extra_selections": [
+      "06dca3ddbe5f8a5622029331b1f07ee0a3abdf83fb3ced82f1c568751ada4c81"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_resize_gutter_above_horizontal_scrollbar": [
+      "cce337a6bb3a3db9ae21510efefc5b8bf8526c23d331e8dc2d15f0ff1f66ee28"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_schedule_decoration_refresh": [
+      "7fac24addc429eb2eab6cc9e00ea073381ed9868eec3f76df8eedf88f5853209"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_selection_for_range": [
+      "d0737d33d1a874153dfc31b29b86e78035d3e6bf209763447044156a921e0258"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_update_line_number_area": [
+      "083f66fb23bff6a5f81ac92091593fe9edf24cf029d8548e73cf2489d098c865"
+    ],
+    "widgets/mwpyn/editor_search_view.py::_update_line_number_area_width": [
+      "f91569933796513fc984e158e9656390b73cca35f28894b4849c44ee92cbe488"
+    ],
+    "widgets/mwpyn/editor_search_view.py::clear_search_selections": [
+      "18b718e7ee4541db7c31dc6f45dbe8048e03afeecb711f6d4f91dff45528d5e7"
+    ],
+    "widgets/mwpyn/editor_search_view.py::line_number_area_width": [
+      "1dc1c8f5d0c804e4b73dddc590b7257fa57edcd0584d4b3aa287f929010b4179"
+    ],
+    "widgets/mwpyn/editor_search_view.py::paint_line_number_area": [
+      "503723923fe5ba945db1191babfadfb020378b79f69b3c3b61517088bf769417"
+    ],
+    "widgets/mwpyn/editor_search_view.py::resizeEvent": [
+      "6bedee1d687a4ae5774c8dcfe6ee896e8f3effbc4f3dbda143c384bfa81b0d34"
+    ],
+    "widgets/mwpyn/editor_search_view.py::set_color_scheme": [
+      "0ff0fab245fd50f681d0c256082d1853fd181c4d8599aab30eea6e76fdf3ab73"
+    ],
+    "widgets/mwpyn/editor_search_view.py::set_editor_font": [
+      "57f11d20b42c7882d48dd9d62b5745c4858e79caf23c8ff485bb4a462c0ad2c6"
+    ],
+    "widgets/mwpyn/editor_search_view.py::set_line_numbers_visible": [
+      "f3cc1018b7a1d44d421b6e82363fd40ffaac818b83e5d4396a55dbe28d29fe4c"
+    ],
+    "widgets/mwpyn/editor_search_view.py::set_search_selections": [
+      "7ef3c35a9eff5da1b86278744739ae1d16829091053ae2c30a627a8e51da8d95"
+    ],
+    "widgets/mwpyn/editor_search_view.py::set_tab_width_spaces": [
+      "82f54f1341eaf744fd5fd290ce720eb24520681e3e377c8cb19181a4b7e5bae9"
+    ],
+    "widgets/mwpyn/editor_search_view.py::set_word_wrap_enabled": [
+      "225dd2ae96acb29dc7c800360c81d5b001241677f78a55d6de3ef6c5407d6316"
+    ],
+    "widgets/mwpyn/editor_search_view.py::wheelEvent": [
+      "46e5141146d27ac1777d4fe039c3f280a7de8203de46bf2b43fd60a423a070f9"
+    ],
+    "widgets/mwpyn/editor_source.py::__init__": [
+      "fb2e3900bce802843665046ee206a5f22894994ad0c21dae6b98f451cb3bd002"
+    ],
+    "widgets/mwpyn/editor_source.py::_is_mutating_key_event": [
+      "dbc59ac079463cf5678dc891ddbd985ec02b4c9a89160081d360c9743e70ce26"
+    ],
+    "widgets/mwpyn/editor_source.py::_reject_document_growth": [
+      "13bb69ea9e8c5d9f5f5c534fef0a1f3461f43060e22d16fb5d056a2d645d0df6"
+    ],
+    "widgets/mwpyn/editor_source.py::_replacement_fits": [
+      "e12fc2cabd6c710ab409b051a00431c1008beee7dcb6c3d54249882de75bfad3"
+    ],
+    "widgets/mwpyn/editor_source.py::load_text": [
+      "9e674bb86982212f970906f33017d7bdc059a15f0ed7180e6f381eeeb5c909fb"
+    ],
+    "widgets/mwpyn/editor_source.py::replace_document_text": [
+      "9e4c3bf5ee243023402033fbb5e59763fdb19b5717ee57fce7e558e2e73b7c16"
+    ],
+    "widgets/mwpyn/editor_source.py::set_view_only": [
+      "1f131a55707a2b750ed832db9dd9a07247ef0faab0821b0a05f059c3a6b801d1"
+    ],
+    "widgets/mwpyn/editor_widgets.py::__init__": [
+      "dc7415aae072cd78c85eb560b54e94cdbf382907651859c17a1e85d00f01a905",
+      "6e132338bb359ac02a8d3e328263e8814faaa4d55bd26689c2d200aada557137"
+    ],
+    "widgets/mwpyn/editor_widgets.py::_apply_pattern": [
+      "521a14da8e255ad33231837fae26e04be5052aa69bd7e28600d907ff306f21ba"
+    ],
+    "widgets/mwpyn/editor_widgets.py::_build_formats": [
+      "6a5b115378ddc7c2efe0bfcfd0808c6f8365885a9005c754a17ce412b543f8f6"
+    ],
+    "widgets/mwpyn/editor_widgets.py::_format": [
+      "526624108c3ebcff6e8a467bc83889d24fcdffff557f80a86b328e2ef4880e79"
+    ],
+    "widgets/mwpyn/editor_widgets.py::_scheme": [
+      "bad48680cf7a1a65aa256f5d834fb7f8d4002cc5052068fb60d6c46767fe2d1a"
+    ],
+    "widgets/mwpyn/editor_widgets.py::highlightBlock": [
+      "cca2c850262feb812acc4184be90fa501649aaae74c8c3bf84e1428b3a8dc2cf"
+    ],
+    "widgets/mwpyn/editor_widgets.py::outside_code": [
+      "ce856008802cd417f73d196929e8c90be3a24be813ce180b67767df95911038f"
+    ],
+    "widgets/mwpyn/editor_widgets.py::paintEvent": [
+      "9ba80ec5552faf3abafab1a7e1911ca49a2537dbe8118f1c9f7214eaed01141e"
+    ],
+    "widgets/mwpyn/editor_widgets.py::set_color_scheme": [
+      "cd75113f7fba3dff1eb2ca0a5592da11a8fbb318c8b85de7cd7bdd5d2eb2a713"
+    ],
+    "widgets/mwpyn/editor_widgets.py::sizeHint": [
+      "77faa9620b044616c305377203d7d2599b6016f6a74aecf414cc7c33d9fde527"
+    ],
+    "widgets/shell_ribbon.py::__init__": [
+      "9093b943e051719301aacd3587a4f0ed51b4f2d979b2a470945ed189445dc5d1"
+    ],
+    "widgets/shell_ribbon.py::_a": [
+      "20178cbf20010ce8d75f91fe02a28a5329cf1e98eb6f2b0af056e64b8f0e2f70"
+    ],
+    "widgets/shell_ribbon.py::_add_action": [
+      "908068986211aa961b5ee476af2b8f357534a6722e1e1c661deab675379210db"
+    ],
+    "widgets/shell_ribbon.py::_build_pages": [
+      "4d80f4de5653747ccbbe2bbf6d4915f1a617aeb44915eee05c00ae2c601dd5d0"
+    ],
+    "widgets/shell_ribbon.py::_style_button": [
+      "291e4d44318a8b46de0978a53bfc47757a0c53153dffcaa14bc2458048bc6aac"
+    ],
+    "widgets/shell_ribbon.py::_sync_collapsed_page": [
+      "114f15e89bc415ad2a505a75c80dfe75a12061641521d7fa65cc7af3e462bf5d"
+    ],
+    "widgets/shell_ribbon.py::cycle_tab": [
+      "712742e4b21597bb0e10fdb6ac0610702a0fdce1dec8d5debdff3c0fd8ca9003"
+    ],
+    "widgets/shell_ribbon.py::eventFilter": [
+      "d16e4973dccbeeaee0d0197f8b1f2a5c6daa1e165527029b38728d54486dda51"
+    ],
+    "widgets/shell_ribbon.py::refresh_theme": [
+      "f5c4c94ff675dac4df17497c01cc0133c5bf09629c61cacbd22033e001e9334b"
+    ],
+    "widgets/shell_ribbon.py::set_collapsed": [
+      "1300f156d04b81c99283ade2075e1919404ddd36fdda9321108b0ea18a5ee454"
+    ],
+    "widgets/theme.py::apply_theme": [
+      "36c1afd4a25567cf0ed908c37108e6bd1697b9d60ce0ad52c15b2c21b93b0397"
+    ],
+    "widgets/theme.py::effective_scheme": [
+      "8155a8a2d78197f46e3749ab09d6c88f290aca829537ba1dd326e665c064bd69"
+    ],
+    "widgets/ui_styles.py::style_button": [
+      "a6373a147bd48e182b3e7066c83ac52ec39cef11b7c14bc05c92dbd7803391fa"
+    ],
+    "widgets/ui_styles.py::style_combo_box": [
+      "2c935a0134e61b6082d84c90814b4057b1b9a6d1d064e59ed33678da101c6c39"
+    ],
+    "widgets/ui_styles.py::style_line_edit": [
+      "87a487434af2d4f0724ef7dc5a2a8077e6481ebf58a4dcf30709c3abbc641fe6"
+    ],
+    "widgets/window_parts/document_tabs.py::_activate_document_tab": [
+      "c8c54c769183fc85870e65e78950876b5f43ff1a1b26294cc1746efa21e4b41b"
+    ],
+    "widgets/window_parts/document_tabs.py::_close_context": [
+      "955e3029da96ec956c5ded1e535828a91d5da9f4a15201c9ad243b45685e4b4f"
+    ],
+    "widgets/window_parts/document_tabs.py::_close_document_tab": [
+      "e3cea90285011fc6b2e60a0e97d3967e89000fc6e798d9830aaf37a77d1f71e7"
+    ],
+    "widgets/window_parts/document_tabs.py::_cycle_context_tab": [
+      "d063464ce7743bd9e0282792a3e3cea41190f64118c57201584adfe2f8218d89"
+    ],
+    "widgets/window_parts/document_tabs.py::_cycle_document_tab": [
+      "a988e36bfc03b2ee6170f00b93b592018eb55ffef43c8e19245230e00747c7c6"
+    ],
+    "widgets/window_parts/document_tabs.py::_document_tab_text": [
+      "3c081722175b49d7fe3e9139532af676e9ddf7d117d6d5b91dfb76e8a8792540"
+    ],
+    "widgets/window_parts/document_tabs.py::_ensure_document_tab": [
+      "5458c29a23a76ee4897b52cd0db14628af8486bab9422ff14b0354dcb9cec8ed"
+    ],
+    "widgets/window_parts/document_tabs.py::_navigation_tab_index": [
+      "5df061c9c9bece8d5dfdc8f8ba9d81f163eaaf4d3cbc5f193f3c7dd1553640c9"
+    ],
+    "widgets/window_parts/document_tabs.py::_on_repository_module_path_changed": [
+      "fd8ace4996d058720e911c43762801b1e3b68fcf287724f9dfdda96af579745e"
+    ],
+    "widgets/window_parts/document_tabs.py::_open_context_navigation_for_path": [
+      "89a2f087c43ba917070dfbe56b8ddf24a8e40bd09cfbce06c4160440946d305c"
+    ],
+    "widgets/window_parts/document_tabs.py::_open_context_tab": [
+      "101b2b06156d0e1366ba2ed8951e153867aa525a3ad92fc6e29b3f82c1fcff02"
+    ],
+    "widgets/window_parts/document_tabs.py::_rebind_document_tab": [
+      "a33ada2eb36cb3ef2906d43d875adf979daa2bf05f80ccb29a8f3ce44d985afb"
+    ],
+    "widgets/window_parts/document_tabs.py::_remove_document_tab": [
+      "91cd129a23b0dd01322383d904e8224b3702cf47abc2c08e7368efe4449b4e3b"
+    ],
+    "widgets/window_parts/document_tabs.py::_remove_navigation_tab": [
+      "838c64dd522b55019e77dc40b793e33ab38a7d6c73c36db8e20fe54be88ec68f"
+    ],
+    "widgets/window_parts/document_tabs.py::_reset_document_tabs": [
+      "868a7e73dcba3e064e4ccf19b62c422f21bd436e8ab9a958ae2f77452fc84d0a"
+    ],
+    "widgets/window_parts/document_tabs.py::_select_document_tab": [
+      "50c00b5427c8bd82e5d97c7efd6394f2ab1e0f200838a11eee4453018a859ab8"
+    ],
+    "widgets/window_parts/document_tabs.py::_set_tabs_enabled": [
+      "0a049400faf0bc495510428282741fa20717df761d030064c1e9ec032a9e79f4"
+    ],
+    "widgets/window_parts/document_tabs.py::_show_dashboard_navigation_tab": [
+      "c21ad61c0b99a021519bd007b7dc22f7c11a73c4cfd31e79a4466edbaa4a986f"
+    ],
+    "widgets/window_parts/document_tabs.py::_show_folder_navigation_tab": [
+      "5c19dd0787ffc6372c6cf0cb6e8ed6b06b3dc740608cffc62224a91d70bb03ec"
+    ],
+    "widgets/window_parts/document_tabs.py::_show_navigation_tab": [
+      "d0ee653c2d80e301e543fa0608528cc8903b25729bfd76b4b67b0e89fff25a18"
+    ],
+    "widgets/window_parts/document_tabs.py::_sync_tabs_mode_ui": [
+      "6e7fddc3924fd02620b0705201884b048356980b9b8c1c8134f539188dd9bdab"
+    ],
+    "widgets/window_parts/document_tabs.py::_tab_index_for_path": [
+      "fbe607664c3575b899650149c412837a9360d3e96923ce63e16bee72c005a737"
+    ],
+    "widgets/window_parts/document_tabs.py::_tabs_enabled": [
+      "f916b4b987fce6c0d93fc676cc71470439842aefb0ce131e0e55eec0e1f6ba01"
+    ],
+    "widgets/window_parts/document_tabs.py::_toggle_tabs_mode": [
+      "a3f8cb6d777bee7e0ef897eb99ad51d52f475e6c5db6be2f0273de9e9ae30200"
+    ],
+    "widgets/window_parts/document_tabs.py::_update_document_tab": [
+      "e67c8c342102d72d6c860ef70ae8d6e8eb8f6e677a90b64f9f910713b673bba7"
+    ],
+    "widgets/window_parts/help_actions.py::_open_documentation": [
+      "03438e278cbfff9c2b4e3e863a1bd18e18766c29549110c976b34ad413a656f5"
+    ],
+    "widgets/window_parts/help_actions.py::_open_github": [
+      "3d450afc9d8e55268311f80aac8ffaa06a0075ec12eaba32d2d42ede40b67b9f"
+    ],
+    "widgets/window_parts/help_actions.py::_open_issues": [
+      "f1f6873acf294a0db95aa5fcab11a46cb8ad903860d2a22f333ff006fe132909"
+    ],
+    "widgets/window_parts/help_actions.py::_shortcut_catalog": [
+      "9045e09838fb64139f4b674805ac5865cb66c1395da6e494dfa165f70a1c4c01"
+    ],
+    "widgets/window_parts/help_actions.py::_show_about_dialog": [
+      "7bf3fc6f538bd71c19e427fcac289b45b7c2b667bd22e44c980657a549a06847"
+    ],
+    "widgets/window_parts/help_actions.py::_show_quick_tour": [
+      "618cbabb16b2b276b42b345c1a6df050a8a6d42e12b3033b8579fae2f44dd975"
+    ],
+    "widgets/window_parts/help_actions.py::_show_shortcuts": [
+      "67bb4dd451904c2496369b34539a000bca16d3bcebf2522c58a17d7d452895ef"
+    ],
+    "widgets/window_parts/help_actions.py::add_page": [
+      "954de14266b0074cba13a94a52ee75151b9a666071313d529ae704df523c004f"
+    ],
+    "widgets/window_parts/help_actions.py::collect": [
+      "61b26ea622d2d3d686c52f094c7cec3fd065540cce127e1627897d0f216c3434"
+    ],
+    "widgets/window_parts/help_actions.py::tour_finished": [
+      "b240ec7e1eb576f218a3350000b67eccb34c9ff03339a1331ba417aae4d9cdd5"
+    ],
+    "widgets/window_parts/layout_controls.py::_logical_splitter_sizes": [
+      "d463c38b4328f943dbb0b357413821b983474845c135e3562ed8920af8267c10"
+    ],
+    "widgets/window_parts/layout_controls.py::_set_file_header_visible": [
+      "3fd47decce27d26680dbf0abe17191b5db2650f72127885040340ca2e6d3cd95"
+    ],
+    "widgets/window_parts/layout_controls.py::_set_sidebar_position": [
+      "cf0ac86ed575c94094795ef276485311993a378931cd5b20d200964ab88522e8"
+    ],
+    "widgets/window_parts/layout_controls.py::_set_sidebar_visible": [
+      "b2d4d916d718a0dce8db5a3f78774822412c32725aa885ac7cea1681bb017ee4"
+    ],
+    "widgets/window_parts/layout_controls.py::_set_splitter_sidebar_width": [
+      "0b714535c5eeec59092a5030aec098a05a77a181d3f148d968906b062d2cdf1f"
+    ],
+    "widgets/window_parts/layout_controls.py::_set_status_visible": [
+      "5d7da10fc0c4bddeb279c8c785a6fa46cf9472cfe3fb93096a319aa17e98caeb"
+    ],
+    "widgets/window_parts/layout_controls.py::_sidebar_position": [
+      "a497eea7f651aab97d8ee3f47b8a6f3b6195bff689f63681076972c91935485f"
+    ],
+    "widgets/window_parts/layout_controls.py::_toggle_collapsed_mode": [
+      "5c71be62e4df0dea3b49bee409907ce116489b024d0aeab7dcfd46a0e4ff275e"
+    ],
+    "widgets/window_parts/layout_controls.py::_toggle_file_header": [
+      "e3c09e4a2a319958724ca9a18e5857beeee9c58c8a7a0f4ba5338160c2d6ce77"
+    ],
+    "widgets/window_parts/layout_controls.py::_toggle_fullscreen": [
+      "94b60c24192acf9a9e374a3d0d6422952afbf6f27c894430b8df38efce79a75b"
+    ],
+    "widgets/window_parts/layout_controls.py::_toggle_sidebar": [
+      "8dd610a355ad236c53ace308f8db07783ef5d5c95ff402e15275df2938f1e6bf"
+    ],
+    "widgets/window_parts/layout_controls.py::_toggle_sidebar_position": [
+      "c925bf3f06541c1ccf8a69c0e3a743a993ed0cd6408e0ea506a39887e4b56e1a"
+    ],
+    "widgets/window_parts/layout_controls.py::_toggle_status_bar": [
+      "da6c21b83f3d61e94ffbcf56458c80e59602cc53ab397e40f1410e32574ccb9e"
+    ],
+    "widgets/window_parts/navigation_history.py::_commit_navigation_record": [
+      "8f919c783f2fc944c21651dd5dc15e2446aa26c628d6ba0874c3e25f98c34129"
+    ],
+    "widgets/window_parts/navigation_history.py::_navigate_back": [
+      "d3fd1bcbb7d596d6e59ee1b4e55e6accbbcc34281b4454a5d76e271245578334"
+    ],
+    "widgets/window_parts/navigation_history.py::_queue_navigation_record": [
+      "2e18317eb7482e0a84cfe0e1f9d67fc29ac6485da53ba4c5140cc5c49dc6f22f"
+    ],
+    "widgets/window_parts/navigation_history.py::_record_dashboard_navigation": [
+      "448034982485eeff67495b205bc30d474a0d22e8f07e73de8d12dd64c1487400"
+    ],
+    "widgets/window_parts/navigation_history.py::_record_folder_navigation": [
+      "3f0ee02400c2b55670970f08d17012da68fb093c669f56da80e8f1bdc4dac25d"
+    ],
+    "widgets/window_parts/navigation_history.py::_record_module_navigation": [
+      "b4a43ff07724032bbd55f6751256c7aea0d8baecbe9f9eef4351da4cbac55f71"
+    ],
+    "widgets/workspace/dashboard.py::__init__": [
+      "56b4afff59873461ad4512025ebebb01802391dabb2766a09983f5588d98621f",
+      "103a888cf43dfd421481983a2b870e4a1e1abd7edb94266e3472ad8517d9bd76",
+      "a433863b84205e8e773d476533af13c8ac7431625447e2af2458ddda9ee19169"
+    ],
+    "widgets/workspace/dashboard.py::_add_module": [
+      "90ea2068c5fd5304b0eaa8ec5de0ef8698585f2c82c085e13431f57f0e404319"
+    ],
+    "widgets/workspace/dashboard.py::_apply_filter_and_sort": [
+      "c5c9e9323264c5d99ea0230f1dc51bcfa755fb64ae07b84c9f0577e0b4329166"
+    ],
+    "widgets/workspace/dashboard.py::_batch_card_visibility": [
+      "ab344a1013da522e664744e83706a64bde86503db65e5ebdd7535101d5e20031"
+    ],
+    "widgets/workspace/dashboard.py::_build_ui": [
+      "2120c949b4fdd9a76e84453e15b027ca3b6dd5388d05fb1ab1220d66e730142d"
+    ],
+    "widgets/workspace/dashboard.py::_connect_card": [
+      "2c69102817f5276b13f2746bb4baf838ecda58b13765705222cb0bd54fc66538"
+    ],
+    "widgets/workspace/dashboard.py::_connect_repository": [
+      "5992bdbb5ca0b025dfa07314e41371b0c7252037da3d1c334ea2e8c3a681a077"
+    ],
+    "widgets/workspace/dashboard.py::_control_icon_root": [
+      "0c496763fc6c11b12fb2c1dbb500b43ed02ca35c3e116e24b879346910775c7c"
+    ],
+    "widgets/workspace/dashboard.py::_current_page_changed": [
+      "1520656e1bc4be8878fa46b1f2d06f9f0fd4d64656354d09a7737e3f8439a431"
+    ],
+    "widgets/workspace/dashboard.py::_detach_all_cards_from_layouts": [
+      "62afb3dc2814b284c119026d3f3015e4d65812c2464282317f4dd29faf4e8554"
+    ],
+    "widgets/workspace/dashboard.py::_do_layout": [
+      "a35c188041e4d6f88b37757301fead454a86aab502af6370969ce5cb4be9f315"
+    ],
+    "widgets/workspace/dashboard.py::_layout_signature": [
+      "f712c0b801712b7ea76dafab6d32c460ffdabeeb799d8f2518c31fdf844529f8"
+    ],
+    "widgets/workspace/dashboard.py::_on_module_path_changed": [
+      "813bef7f4e5569c1e51b577aa54bc0c3641a2bc5845573a29b2dd814257d7e77"
+    ],
+    "widgets/workspace/dashboard.py::_on_sort_changed": [
+      "2d80b7776fa3c4e3e8b958fef1a2472bab5a667831c56e6ef0c1bc00f621132d"
+    ],
+    "widgets/workspace/dashboard.py::_page_hint": [
+      "d000fe028687d37bf7f767cffc2eadee6f8a78f3da8e5e35130552c582a0c243"
+    ],
+    "widgets/workspace/dashboard.py::_refresh_control_icons": [
+      "c6855ddd1d57b056736a8177e9d676a00f3a9175b7ac016abc968b4495b9b24a"
+    ],
+    "widgets/workspace/dashboard.py::_remove_module": [
+      "d0703bf33b7e815a257de7d5f0a577c63199f6a8a1e773354dea82888aac8209"
+    ],
+    "widgets/workspace/dashboard.py::_reset": [
+      "93f40937bd3f2656ccc1aedaa0eeb3782a1745d96bf927755ec326fb99b9ae86"
+    ],
+    "widgets/workspace/dashboard.py::_schedule_search": [
+      "5ebcc268d307c813fb553234c583bfd6fc8c745c6232f9ea60a4ebfd454a5114"
+    ],
+    "widgets/workspace/dashboard.py::_select_card": [
+      "ea96dcaf25d7b4463789161200f5db206c3bee1502625981b3a7dc68294f086e"
+    ],
+    "widgets/workspace/dashboard.py::_set_drop_highlight": [
+      "b328ba4d85445a3a0db81135c1c2a7fa756ac9c20a541009c90305fa33d9ad0b"
+    ],
+    "widgets/workspace/dashboard.py::_sync_card_layout_order": [
+      "f8c8af4b0a4eb0be7db555a15b645cc6f32eed4c7575251494df58ae69ad2503"
+    ],
+    "widgets/workspace/dashboard.py::_update_module": [
+      "5d349b51a4e044aa319914f35d49b2025d099bc241c71463e588554253b41f62"
+    ],
+    "widgets/workspace/dashboard.py::_update_unsaved_banner": [
+      "6f144520e9914349532cddd8337663cc8a49b99e42852ebb96c86052316cb353"
+    ],
+    "widgets/workspace/dashboard.py::addItem": [
+      "a0c6dc5fa629f3ae93b28997bebe7f6fb4831d630d836ded9397321637cb66d7"
+    ],
+    "widgets/workspace/dashboard.py::addWidget": [
+      "a05c6116a7f185a51b89acdd77e40b25158ba2add2d3b6a6f8e61838e76edeb7"
+    ],
+    "widgets/workspace/dashboard.py::clear": [
+      "cc273ed20ab4f150c12e7602b3196d7a639c081cf2332034a7d369fbd1f5acd5"
+    ],
+    "widgets/workspace/dashboard.py::count": [
+      "f90d96750637c2c39ad170176a070e6dff057b96da348572cc6ec930871e2e7c"
+    ],
+    "widgets/workspace/dashboard.py::dragEnterEvent": [
+      "8cb8543e51a0b2efdfc61c4500af6ea549dbd8187a2bda675a0c965566c8c542"
+    ],
+    "widgets/workspace/dashboard.py::dragLeaveEvent": [
+      "d9e2ddea70970347d82cfe86a33ec36d3eabdc434362dcae63d86e036fe02ef3"
+    ],
+    "widgets/workspace/dashboard.py::dragMoveEvent": [
+      "179ac6ae6f3bd75c1e46ba48f6b2d46c87858930dde15e2515e2e679abf27df9"
+    ],
+    "widgets/workspace/dashboard.py::dropEvent": [
+      "2c288069fd1fe6b1e4f32c400e57fbcb0cd22b1521a9a9d02efd12038c376637"
+    ],
+    "widgets/workspace/dashboard.py::eventFilter": [
+      "3e269023686845502879f2995ec842d1f117d39bce7fad1813c7a3f41e097420"
+    ],
+    "widgets/workspace/dashboard.py::expandingDirections": [
+      "f07fb75b20b097d49405f64a6cf67d8fe03e0f3c8766f9c0339ffc1703764231"
+    ],
+    "widgets/workspace/dashboard.py::hasHeightForWidth": [
+      "8181de6439c0bb8c6230c855d9ba259f3a5a9c790dfb7504c29e441a26c0168a",
+      "fd7a2e419a94b6d66b41666aa92544bd911bd7098f9b9d4f129601202c6ef274"
+    ],
+    "widgets/workspace/dashboard.py::heightForWidth": [
+      "d43b9e7df2d0ca46316c36e814421544bea0a67af3cee7562bdc6d22ce896809",
+      "89e89fba6203c2017fdcd7468d806aa1375fc1f3938d13140ddb3c6bdb185e4c"
+    ],
+    "widgets/workspace/dashboard.py::invalidate_measurements": [
+      "cbf6987e634ec74305a36fd5cd105ab1f9de74e11c498bf46e08708bec94eedb"
+    ],
+    "widgets/workspace/dashboard.py::itemAt": [
+      "b1788329e8936f039ae6faac657bab2af7062ab32a98ca530d579941ba7bb7de"
+    ],
+    "widgets/workspace/dashboard.py::minimumSize": [
+      "642148edb7c33d205b4e94ad2200a45f86cad0e76534c259abb3d8353322aa0c"
+    ],
+    "widgets/workspace/dashboard.py::minimumSizeHint": [
+      "7726fa18cc1d82cff3327a7a88204e16be9490a2fdc43dfda597ff03a2e89d67"
+    ],
+    "widgets/workspace/dashboard.py::refresh_theme": [
+      "7ce5054c4b42c41d689678b707754c9ee2dbadd24a79e69d0234c6acc92e8ac2"
+    ],
+    "widgets/workspace/dashboard.py::replace_widgets": [
+      "5e138f6bd128a845b7efcf58a3315820a99fdb2c0083d3f3d63726cf32c42372"
+    ],
+    "widgets/workspace/dashboard.py::setGeometry": [
+      "30b19a3b2f49b8f55060c3ab58611c55524751cca9bee78360ecdaa66b96163a"
+    ],
+    "widgets/workspace/dashboard.py::set_loading": [
+      "b763ad0fe1134af7bb0fc20ce9933b2f5bd53b58acef67086af72e4b4db2eac1"
+    ],
+    "widgets/workspace/dashboard.py::set_loading_detail": [
+      "1d5e5057def0dd9d37dd3f7013d362354a10b205a0906a140c61db876dc5524a"
+    ],
+    "widgets/workspace/dashboard.py::set_search_text": [
+      "dcf340c0dac10a1b1a6cfdebd07162d6a113dfe0366678e16cfc1c7c5ea99b79"
+    ],
+    "widgets/workspace/dashboard.py::set_sort_mode": [
+      "9d451f7a0c14ee19333130e8d6449c3038335a7c91fb0d695b17591bb7fc174e"
+    ],
+    "widgets/workspace/dashboard.py::set_view_mode": [
+      "6faa56a2d6ee3bbd25762af5a82fa22f2e80cc09b54c6364a8d61989787ba1c1"
+    ],
+    "widgets/workspace/dashboard.py::sizeHint": [
+      "605a86b0e339cc22504bdc7c99058b85cd5db966aeb3f915abc2325a683cc2d0",
+      "44fe07fe2cbe450df2fd1a155984b97547491c42b3d2f9c95523b6a9898432c9"
+    ],
+    "widgets/workspace/dashboard.py::takeAt": [
+      "92e47edb515043dc291006a5def0ed7233d61649c87bb582aebef066d4bc82e0"
+    ],
+    "widgets/workspace/dashboard.py::toggle_view_mode": [
+      "e2e0db5096be125529042792cc9cf3bf1a128e00ccb2d255e25d3d2f3c075e5d"
+    ],
+    "widgets/workspace/dashboard.py::view_mode": [
+      "ff4936ed192c8e930851078342a9fb7afde8c6294eedebc3c8aed6a59937e298"
+    ],
+    "widgets/workspace/dashboard.py::viewport_width_hint": [
+      "0cb2758995ab33b4a337795fd2dbdc4531b574066963845d4ce079d63eb67d74"
+    ],
+    "widgets/workspace/dashboard_card.py::__init__": [
+      "482a78765cf9faf1e4439f3395d8fe2ebbb547a4ab490aca8efadea04fc03703"
+    ],
+    "widgets/workspace/dashboard_card.py::_build_buttons": [
+      "dfb115a5ed12b8d7a80d0543e1221af8479f2441bd63d43353e1692c64c718a0"
+    ],
+    "widgets/workspace/dashboard_card.py::_build_fixed_layout": [
+      "e04849c7c532c418e6357df6e0ccecf705cad8cdf4c5d8b2b25a9523a327f4a5"
+    ],
+    "widgets/workspace/dashboard_card.py::_build_grid_layout": [
+      "6f4a1d9686149da26b8d17f3f6a492348b9d17879168760a199d4d9d5223c57e"
+    ],
+    "widgets/workspace/dashboard_card.py::_build_labels": [
+      "018ae47074fbd06dff1c978d16d24713f733afc115893f52acbce1dce8a409f4"
+    ],
+    "widgets/workspace/dashboard_card.py::_build_list_layout": [
+      "1a96cae20d2e2ad8aa2307a2a6632a9aba343fe89a8ec3474e3c193bb891be3a"
+    ],
+    "widgets/workspace/dashboard_card.py::_button": [
+      "fded69847c370c64b3f6ba7bac6672283c1662bdd4299d19d5bde1e3beaf2ebd"
+    ],
+    "widgets/workspace/dashboard_card.py::format_size": [
+      "83911930839ddf36054b1c85096afbe2988ad22653e5e532bffcc0667f142a3a"
+    ],
+    "widgets/workspace/dashboard_card.py::mouseDoubleClickEvent": [
+      "74588ff3e2f3ff0da32c6eca1b3d43d6f5905d014f2a63ad99992bc475b69747"
+    ],
+    "widgets/workspace/dashboard_card.py::mouseMoveEvent": [
+      "2b6ffbf5cfab5ca4ae9b74f6d491c1e372cce9e813a2868ce5ba19879996b239"
+    ],
+    "widgets/workspace/dashboard_card.py::mousePressEvent": [
+      "bf9afb85b187f70e3c64e14c840c7de75616bdccdd70fdd410dac6f5209bd8a3"
+    ],
+    "widgets/workspace/dashboard_card.py::mouseReleaseEvent": [
+      "8a0fcdd23a077da2e5f987a52074acf56a49a2334480403e5ebf50cc108fd7a0"
+    ],
+    "widgets/workspace/dashboard_card.py::paintEvent": [
+      "7bf83f3a44f7fefbb6f40b951b8dd4b2e7d75054c25e9343a6de398b54fe2b9d"
+    ],
+    "widgets/workspace/dashboard_card.py::refresh": [
+      "69eba0357850a2d3d2545ba456132138eb756b7e28c14b93fa9b46b93ad2ef5b"
+    ],
+    "widgets/workspace/dashboard_card.py::refresh_icons": [
+      "f19b53d4b2f6f69c5c679777f467f8fe9eb4c9e9adfa0e080f1d8c2a14fa10a8"
+    ],
+    "widgets/workspace/dashboard_card.py::set_selected": [
+      "2d420e9707274e2e07a2261136ff6b76c0a24498abee20005889f14a4aa2f63b"
+    ],
+    "widgets/workspace/folder_dashboard.py::__init__": [
+      "a060fc2047109fa3b9a4bedacdddbe03812b2e76d0503b96dbe02d4958f97260"
+    ],
+    "widgets/workspace/folder_dashboard.py::_action_icon_root": [
+      "6c528e3a731c3defaff38f5ebb74ccbb9db7e20abc0f2169281093dab253e3d0"
+    ],
+    "widgets/workspace/folder_dashboard.py::_build_ui": [
+      "2810f523c6e8701fa428539419b88de4de840bba7ec4d2cfc323d72360e82c88"
+    ],
+    "widgets/workspace/folder_dashboard.py::_connect_repository": [
+      "2a55c97fc19b17bb911449b6dea8fa2607b6637abe126e555284285897d5f3e0"
+    ],
+    "widgets/workspace/folder_dashboard.py::_matches": [
+      "081b4df9f1ef12cf0be21ca1089f37e97030b38860f6903fdb5c781d721a178e"
+    ],
+    "widgets/workspace/folder_dashboard.py::_on_module_path_changed": [
+      "ff08c7b57b7f36cdc108b9aacf0fbc0dedfd9a902f87abf99608ee4605641869"
+    ],
+    "widgets/workspace/folder_dashboard.py::_on_repository_change": [
+      "7b03a614db252a126243f9236f2c74ac0a3eb31e963e1e939d4f000650c2e4bd"
+    ],
+    "widgets/workspace/folder_dashboard.py::_refresh_action_icons": [
+      "0a6e4af8997471e3a3647b8c50f389a1f665918ba18c20462a92b1486bbcfd88"
+    ],
+    "widgets/workspace/folder_dashboard.py::_refresh_header": [
+      "36a11221b17f69dcafa1a4be42c030942af0241b3aba86fe98d8871b66e6f85a"
+    ],
+    "widgets/workspace/folder_dashboard.py::_schedule_search": [
+      "5ebcc268d307c813fb553234c583bfd6fc8c745c6232f9ea60a4ebfd454a5114"
+    ],
+    "widgets/workspace/folder_dashboard.py::_select_card": [
+      "c252ec2f6533e7983be72be62063118ef1c4256215502dd6d828b19e4b783c3e"
+    ],
+    "widgets/workspace/folder_dashboard.py::_set_drop_highlight": [
+      "0f028c3b216617d5881255e0825ef42db22c817d0ad5f021eafdbec6d8139881"
+    ],
+    "widgets/workspace/folder_dashboard.py::_set_include_subfolders": [
+      "de5cb3b610aa0fb1c6eb2dc7e35dab6a23afb8305aa0bdedde99562c45ad01ab"
+    ],
+    "widgets/workspace/folder_dashboard.py::dragEnterEvent": [
+      "300897a45e66970bf68131fd9f7511f33c461add38d978c78853b9ec0e5f659e"
+    ],
+    "widgets/workspace/folder_dashboard.py::dragLeaveEvent": [
+      "d9e2ddea70970347d82cfe86a33ec36d3eabdc434362dcae63d86e036fe02ef3"
+    ],
+    "widgets/workspace/folder_dashboard.py::dragMoveEvent": [
+      "c57e5244c4ebc81d66737b3941fe121163d137735d5b67bfb05707e63f323303"
+    ],
+    "widgets/workspace/folder_dashboard.py::dropEvent": [
+      "2c621bbf148b15e2ffc7c42e075e742ddcfa79f820ca7a5b3ef0141da61ae2c4"
+    ],
+    "widgets/workspace/folder_dashboard.py::modules": [
+      "9bd03e300050065121e428f4ab801bbbaa5417224406f81b43084f1ccd8213fa"
+    ],
+    "widgets/workspace/folder_dashboard.py::refresh_contents": [
+      "d54c879caf4b92526b010bee86842398b60a3df2e1d62f8a14311211e9d46210"
+    ],
+    "widgets/workspace/folder_dashboard.py::refresh_theme": [
+      "b6cd03a74059db8c1800566071a0c6a963b66c76b08c06fa7c03c8e5d66acdd5"
+    ],
+    "widgets/workspace/folder_dashboard.py::update_folder_path": [
+      "a5047b72af59381f59b9c9cd16e4ff3aa4b709240ff1509af0cb93fca165c88f"
+    ],
+    "widgets/workspace/navigation.py::__init__": [
+      "67baa348958aad7fa91f5f20e3d908a94b1db4299db2017404f8dcd54fe4e796",
+      "1ae0282e440a483ae9c02d52e065bea8ed0811e6b82ce91c45d8a1010e97cc9b",
+      "d5ec4869b0b1e8209d51cb75258227fa3466023e68205377604ee49373915c12"
+    ],
+    "widgets/workspace/navigation.py::_activate_item": [
+      "47f3f54b5d4c2433a49a8db44d01cd121bae2295a49742dff6731e5a5297623b"
+    ],
+    "widgets/workspace/navigation.py::_apply_module_appearance": [
+      "7fe25304a593a2e20914984c033292f7a8fa2596d8b8d323461a0ebdcef16e1f"
+    ],
+    "widgets/workspace/navigation.py::_build_interface": [
+      "a81c4dd04aacde95d002de98820950f952378727ae3d9a5d7ae97f308c817415"
+    ],
+    "widgets/workspace/navigation.py::_clear_drop_highlight": [
+      "9adec4d817a131cf708d8542b7681cb3fb6774a0006786aea6fb1c37ba8b428d"
+    ],
+    "widgets/workspace/navigation.py::_connect_signals": [
+      "194bfe0b2de2979e4bac98d54c3532504ce7bf2366cfd556299c61cb7058e595"
+    ],
+    "widgets/workspace/navigation.py::_depth": [
+      "51bfc12124a9dd26892c503a31d77a8eff1ce62badf5a03b020f69e26d1e1062"
+    ],
+    "widgets/workspace/navigation.py::_detach_item": [
+      "e9656e28a1f7e17dc6831bd2e025016e692fa5ffb3e29c9d5a41c03d60d6a823"
+    ],
+    "widgets/workspace/navigation.py::_drop_folder_item": [
+      "6375e526362969f0636eed642fb2c8f50fbfe331be6c566aac70acfb91a03f29"
+    ],
+    "widgets/workspace/navigation.py::_ensure_folder_chain": [
+      "6b7f935f3b89318d607c3c2a6e857fbe74c569f92ab00af0853b8fdd483be734"
+    ],
+    "widgets/workspace/navigation.py::_expand_ancestors": [
+      "c654aff6bc19b9bdb8fd22dbc4e76881b786995d3784b8cf2ced2d99269d87b7"
+    ],
+    "widgets/workspace/navigation.py::_external_drop_destination": [
+      "a61a5c8f37d65accb3306c146e138611f850daf26064f29894ce34edc59adb49"
+    ],
+    "widgets/workspace/navigation.py::_find_module_item": [
+      "8dd9d8ab305957a996b1f69022b92964ed626fdf7cf5693bd5bf1c62f460819e"
+    ],
+    "widgets/workspace/navigation.py::_folder_absolute_path": [
+      "c8d0391d37c46d2473bdc597990a82d23a2dee6c520531b1c8b7a67a35327031"
+    ],
+    "widgets/workspace/navigation.py::_forward_module_move": [
+      "e0b26828d5efdca499b3c99f0ef805157bf0e3ef92cd5c4696019d3a64ce60d7"
+    ],
+    "widgets/workspace/navigation.py::_insert_module": [
+      "d306d4dbc93063e542063eee1769c85adf90c838d66b373575736824f1ea8685"
+    ],
+    "widgets/workspace/navigation.py::_insert_sorted": [
+      "5d38ba8fb0d6890da9a5e8abc545c53477dc3e10d5869e53a3063b6934de6b9e"
+    ],
+    "widgets/workspace/navigation.py::_internal_move_changes_folder": [
+      "952233a351036484eaf986052f21d0dd4c209fad33885d1ded211d4dfeee1a6b",
+      "1d2f603dddcd693ddc4be894eb61113ee6dd3bd172d974eb127e98ac17a8e77f"
+    ],
+    "widgets/workspace/navigation.py::_item_is_alive": [
+      "09ba0f223110965dc263ef22622951059cc5c81b4535d46a4712f424da8ca14d"
+    ],
+    "widgets/workspace/navigation.py::_load_disk_folders": [
+      "e09d4870a0e6b78f3520178b89b234bae0d7fbe46bf358ad3dced4ed18d918cb"
+    ],
+    "widgets/workspace/navigation.py::_load_initial_modules": [
+      "e83811ddb78ffd70675bef111f3f7e6a6abe9d7a15f96f5fb4ec597202d6610e"
+    ],
+    "widgets/workspace/navigation.py::_module_label": [
+      "f2f903d20b55d06f4c1443a91167139f8f30727b405049fdd277616ec2a7fc0a"
+    ],
+    "widgets/workspace/navigation.py::_normalize_folder": [
+      "6ac6f96083e3174774ffbd11abdbd5beb5eacea8b0136130d114ef3804b2df42"
+    ],
+    "widgets/workspace/navigation.py::_on_module_added": [
+      "eff8e5c6168b91a5ebfe2adf3196375ddaf570fb626239e5d447b5766d0f8e51"
+    ],
+    "widgets/workspace/navigation.py::_on_module_changed": [
+      "b1e8cf809dd062d4a5ea7219985b7f91f92e8f3dab2b3fcacefc1b18336a497d"
+    ],
+    "widgets/workspace/navigation.py::_on_module_path_changed": [
+      "63e1da208c6abf502656482a30d08b96f742403c62c5da63b1cb7a89cde2491f"
+    ],
+    "widgets/workspace/navigation.py::_on_module_removed": [
+      "813328613b1480570570e22813ee194228b168d90cec20266f57b028a3d0332a"
+    ],
+    "widgets/workspace/navigation.py::_on_repository_reset": [
+      "6af82ccd79296b5f9812c13629e02fc23f09a86468fd96b97c63c530317dc50f"
+    ],
+    "widgets/workspace/navigation.py::_prune_empty_folders": [
+      "e13b9f7d4863bda6a6e2a47de8336a1ffe7a4a0f8659f4386505fd0150615454"
+    ],
+    "widgets/workspace/navigation.py::_remember_collapsed_folder": [
+      "b5b4b5ab398e5d12e89bdbb24a0c527f939b958aa173cc7e541ca0eaae9499b7"
+    ],
+    "widgets/workspace/navigation.py::_remember_expanded_folder": [
+      "b9531ef4cce0285c55aa1720ef8a7113bd04061b5da64132c0e831b8337b6776"
+    ],
+    "widgets/workspace/navigation.py::_set_current_item": [
+      "9c9597877cc387fd9e3cbcab5824dc203a0fe2bc3f18520f5e9d094c3c1e7271"
+    ],
+    "widgets/workspace/navigation.py::_set_drop_highlight": [
+      "18b3c6b3a8f4a81ce5ecead4fb5ded280a78d15ab13e2308e6a65028ccc53112",
+      "a89caa2a995cfc54ca63aa95c707b44e7e91d6c0ded6f8b4458cd599f4e33afb"
+    ],
+    "widgets/workspace/navigation.py::_set_root_drop_highlight": [
+      "ff63aa6a8802af497902292a72ac5c3022b7e67fa8681b72e8718852de06c3a2"
+    ],
+    "widgets/workspace/navigation.py::_show_dashboard": [
+      "20d20ee1c2372c3158b96ee08d8144fa2ab828dac2f50b15fc7407b0319f6a1f"
+    ],
+    "widgets/workspace/navigation.py::_sort_key": [
+      "961bd5a490b5df58f0d9451e35d4871705fa126e3204c6a33243f6035ef577e9"
+    ],
+    "widgets/workspace/navigation.py::_take_item": [
+      "b033616bcd302e705fc818f5cd2fc6593baab70a623276c95636510a1477d237"
+    ],
+    "widgets/workspace/navigation.py::_update_module_item": [
+      "6ecdf2a653d9679a4070aa73d3dfc98d0976a6d92869c7eb193a6b562123cbe7"
+    ],
+    "widgets/workspace/navigation.py::collapse_all_folders": [
+      "524a3042e1992c2054e20a06a5701eea758db2167728a964f72a8b56a5e69056"
+    ],
+    "widgets/workspace/navigation.py::collapsed_folders": [
+      "14517ce94f0261597dfed1ca1038856af8afdc98854d46f7e32a44c802813efc"
+    ],
+    "widgets/workspace/navigation.py::dragEnterEvent": [
+      "2bc24b866e3f4c844145be4c6ea22d1dd039897e3db19b8b867b0f194ffa9da3",
+      "254c8d93392336695b8349d16c28c784d83696746d7308440ccd68fcedbf4dea"
+    ],
+    "widgets/workspace/navigation.py::dragLeaveEvent": [
+      "438c1a541fa3edd4a3e763c1aa48d6534fa581b13263919970ab21f4f505142c",
+      "d9e2ddea70970347d82cfe86a33ec36d3eabdc434362dcae63d86e036fe02ef3"
+    ],
+    "widgets/workspace/navigation.py::dragMoveEvent": [
+      "7f13e3fe8033b609e5904277c22bad78ae06822655530e5b8e7e679a4c1a2e03",
+      "abbeaee32d6d1ae195f9828e8bf3e92bf75047889ed54752e4355e66f15252d6"
+    ],
+    "widgets/workspace/navigation.py::drawBranches": [
+      "66cbf0270b8e80c6a6928d9c45f8e4fd420cecd6980bfbbd6eb1fdec97f90299"
+    ],
+    "widgets/workspace/navigation.py::dropEvent": [
+      "2756b5486501900a5141bd034c3f91dece90a428e269fd576cc764a1ef5c3b1e",
+      "bcf775c09a253dae4b952221c55dfa7413c5db3d4f03de58ea42abd6b8f674b0"
+    ],
+    "widgets/workspace/navigation.py::expand_all_folders": [
+      "9e8e86484e55c905c6b6461858c8a55465e46d1c11eaaabea72b0bfc7c75f577"
+    ],
+    "widgets/workspace/navigation.py::external_markdown_paths": [
+      "284386319890296ca0f2d8860446f2b1bebf78c4b50d2d0aaa558e72a33421b8"
+    ],
+    "widgets/workspace/navigation.py::keyPressEvent": [
+      "ad1577987c647b5d0f7a948c015abf3e22512b9f3df05600f12a6f42d2826d2d"
+    ],
+    "widgets/workspace/navigation.py::mimeData": [
+      "5d91ac2462b5213cee310ba9b06003f7252239e428eede4741751b92cf70e80f"
+    ],
+    "widgets/workspace/navigation.py::mimeTypes": [
+      "4f3862c568c0d4f83494173e5d64b7a52469cf102b24748d412cfa87858ed604"
+    ],
+    "widgets/workspace/navigation.py::navigate_adjacent_module": [
+      "cc8738a249de302ee3ac5e6b696cb12327be24d032d32994eb61ff3291ce0619"
+    ],
+    "widgets/workspace/navigation.py::rebuild_from_repository": [
+      "1efd4bfbb1efee9ddf905a1cb17f246f6694061e7e2e3cc37af5c035a699c43c"
+    ],
+    "widgets/workspace/navigation.py::restore_collapsed_folders": [
+      "1297805bcccb11724832fb39c8565781d303fc1b4f00d4c3717a051f737c258a"
+    ],
+    "widgets/workspace/navigation.py::select_dashboard": [
+      "ba577e0931d7bfe101eeb593adb3901828e978eb3214694f567c52253f20f833"
+    ],
+    "widgets/workspace/navigation.py::select_folder": [
+      "3fe3f2f1c8e67e08fb4c1eb035568f17f949cb60fb2a2e0b444fa5b0fa0ea021"
+    ],
+    "widgets/workspace/navigation.py::select_module": [
+      "589031b77d7164a4d53a8dcf9c2c5ad3aec118fefc060db8e619c436df0dff80"
+    ],
+    "widgets/workspace/navigation.py::set_disk_folders": [
+      "bab59d971e8c72565a5e59f9910009899376194e903b8db4f9725a8a1bc54441"
+    ],
+    "widgets/workspace/navigation.py::set_loading": [
+      "9ed8af60f9936246b87b8734e4a86085ea4498e801a535727d4814b6ebeb6260"
+    ],
+    "widgets/workspace/navigation.py::set_loading_detail": [
+      "1789230dad7d7c598d9fd26ce41e26edde9bc067b0fb4aef8c87c9975978ca47"
+    ],
+    "widgets/workspace/navigation.py::startDrag": [
+      "ec143e8b1cec98954f800cab582f0f9668c5491831e5b40f9ffac54d80089ffc"
+    ],
+    "widgets/workspace/navigation.py::supportedDropActions": [
+      "9e2729f40ce95f8243f2d2c3fbba12aa648beb74cc15dbcae968fbc609f35fd6"
+    ],
+    "widgets/workspace/navigation.py::switch_workspace_root": [
+      "87d28ae4d8c8ce70b5d91c3a14f1f980c643b49f8fdcd7d0124ab06ca0d0f327"
+    ]
+  }
+}

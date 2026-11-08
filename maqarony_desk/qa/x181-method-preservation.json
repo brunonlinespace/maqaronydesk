@@ -1,0 +1,41 @@
+{
+  "baseline_version": "1.0.0-x18.0",
+  "file": "maqarony_desk/widgets/editor_page.py",
+  "allowed_methods": [
+    "_build_ui",
+    "_update_cursor_position",
+    "_update_operation_mode"
+  ],
+  "unchanged_method_hashes": {
+    "_host_process_environment": "a443b7c3a44aa97583368622d849cb6e52796c937d65cda48cbe7fe4ec188eb3",
+    "__init__": "4473b402c4f2ade8d637583811f95e552fcd01554b0b30328026bca0e33168c7",
+    "showMessage": "65207d82a8c6b8421b7e28a735126a94def4e96cb213a03e0430442fd118a9c5",
+    "clearMessage": "9f791257ca2b092e267f994129c13e320758c7c87cd516407375deecf511eda0",
+    "__init__#1": "224b50538e0cba3a13e11426169ca387fb866f28294191e20c0be711d1ee2a00",
+    "_dropped_markdown_paths": "b7f7bc27a8ef84c0b66908924a9d51f61b9040dd2c5199382bd5f708b43c0204",
+    "dragEnterEvent": "4e5a2e54db4fadfe0d984dadb2aa43531d9e6c707cd92c3283eaebc90c55d5fe",
+    "dragMoveEvent": "4e941ad2d9b2d9ceba3cd610c62618f2ba72b73e6e5826d2dd741c516180655f",
+    "dropEvent": "894b579b1ccbf4f331dafa8eb2bc86ee585234e5c6af331047406b7c58ced6ca",
+    "_connect_signals": "4f4f9a27c9b42e8f7f5daae07c6cdac9e096258cc7546f6a4ad11348bcaed0a5",
+    "_emit_undo_redo_state": "b2e7d884362a143eaf763eba68a64eaf464c95eac035903f164d18bb089f4164",
+    "_apply_presentation_safely": "819e3ad29cf6d822c7c729bcef030f9741929bc74fea182070426467344eeaad",
+    "show_editor_status": "7922b12047e477d7cc306cdc0990c12188ee5f94cbeda39c29d68ce9dfa7c6cc",
+    "reset_content_splitter": "7c1aba8fa1af5d509eef2f6c9ebeceb3462d33d80eb5f9d60811e9e9babc48ec",
+    "_remember_splitter_sizes": "def6f90973ee258672a84ad5624995cefa761cf975dcb0009a6ab1834e7d3277",
+    "schedule_preview": "ad7c992cb4164247aa8a5893e4e8c67a03202c72ea7d541dd1be346727ce44a7",
+    "refresh_preview_now": "1aa972240c7c5ea9c9cbaf404d88035664f1aff1b4ac6e7ce39a40211abe96c8",
+    "_insert_curated_symbol": "3a651eaa368f6b257eaf06828d6ea8c75d23fc00c727a95b5b5c4f57f89a84a5",
+    "_open_more_symbols": "f7f84de00b2d672910bb0f28e893eb11909291953a57042b24ad4f0a99fb9584",
+    "show_symbols_dialog": "538c2d45b270cd04ee562a3f3b84c9117d4a8e978c5f691c71daec31cfeb6787",
+    "choose_display_font": "5340ce244600a53f80cd7b737301180a0667cfd4dfd1a49ffadedbb802e8b7f3",
+    "preview_base_font": "46b0e8358b443b252eefadcb998e0c300cb52a8ec343f4b282219435835281b7",
+    "apply_preview_font": "0818a316f5e2bb6ee7b491439110288d5e03c1cd3841a7fa0e6671f12efaa62d",
+    "choose_preview_font": "12ed944b8e6738f68c5d1782dc4dc65b01568689e09534fb24f0566b2fd3ef15",
+    "toggle_view_only": "503c462551497bb4837ffa1960d1a784c264b834db22e036b21da63c336e0195",
+    "set_view_only": "e95fe16a4bd20c7c0303ab9060e30f2e87d16157c44aa9b1712d13043ecd4938",
+    "show_view_only_edit_prompt": "0024109006d2f0b3cc1d8b06a6914ad47c63faa3a310a170ca9b7b7d28a2b613",
+    "set_header_visible": "7011e238fa9ac5018f80fcfe8267dd761e3331e8abdcc3c15761edbac4c651f7",
+    "_refresh_header": "d76437be95bd748e01cbc539de3a3130c993a8430d45e184b08ac1fd9474acd4",
+    "update_effect_availability": "6ed9cc6813984dde93eec3baeae99290835e23aadab7dd35fa33930205099c54"
+  }
+}
