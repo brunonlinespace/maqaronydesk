@@ -1,17 +1,17 @@
 {
-  "id": "marko-plus",
-  "name": "Marko Plus",
+  "id": "maqaronydesk",
+  "name": "MaqaronyDesk",
   "description": "Managed-workspace Markdown application in the Plus family.",
   "component_kind": "extension",
   "extensions": [],
   "portable_command": [
     "main.py"
   ],
-  "icon": "marko_plus/assets/icons/markopad.png",
-  "version": "0.4.17",
+  "icon": "maqarony_desk/assets/icons/maqaronydesk.png",
+  "version": "1.0.0",
   "publisher": "brunonlinespace",
-  "repository": "https://github.com/brunonlinespace/marko-plus",
-  "desktop_id": "marko-plus",
+  "repository": "https://github.com/brunonlinespace/maqaronydesk",
+  "desktop_id": "maqaronydesk",
   "tagline": "Friendly. Fast. Focused.",
   "publisher_id": "brunonlinespace",
   "capabilities": {

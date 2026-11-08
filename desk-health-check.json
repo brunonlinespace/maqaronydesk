@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "tool": "desk-health-check",
+  "application": {
+    "id": "maqarony-desk",
+    "version": "1.0.0",
+    "package": "maqarony_desk"
+  },
+  "adapter": {
+    "id": "maqarony-desk-v1",
+    "contract": 1
+  },
+  "capabilities": [
+    "dashboard",
+    "layout",
+    "painting",
+    "resources",
+    "scalability",
+    "scan_cancel",
+    "scanning",
+    "scrolling",
+    "search",
+    "selection",
+    "shutdown",
+    "sorting",
+    "startup",
+    "themes"
+  ],
+  "source_files": {
+    "main.py": "60affd86f9b1efd75dfabc96eecdfa8eaa47fb6d69d62fd9109eb755a09f0e3d",
+    "suite-pythoine-component.json": "1c2b637bb63b5cafc1965dbdf7307fa99d224428154f450af9ce1cd395ce4b0c",
+    "maqarony_desk/app.py": "8a8b48d686e795fadd8bbde8fa60d48a589440515b3984a555eb7a861cc5115b",
+    "maqarony_desk/widgets/main_window.py": "756bea3f86d0210c33ada99b399e448f77c1a28ab71883996be2435916bb6ac5",
+    "maqarony_desk/widgets/workspace/dashboard.py": "99b080f7b5888bfdb372ba1a09066ef4fdd3e17b25663e43ebf83e7506b1dc39",
+    "maqarony_desk/widgets/workspace/dashboard_card.py": "6f4755f39a5fb37224eee0af98340866f834ab8494c2df92f7e6b8a1f7f71bfe",
+    "maqarony_desk/services/filesystem_watcher.py": "829351b30149d63e6dc7fe85f2d091cb9f2051cf099b2ddc7720d166e86fd318",
+    "maqarony_desk/services/config_service.py": "933f6cc666c44c17039fd67556e658e07c3ad4861b11dea82a0ffad3aee775f3"
+  }
+}
